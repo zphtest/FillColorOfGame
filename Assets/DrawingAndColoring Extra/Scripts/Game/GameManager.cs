@@ -235,6 +235,8 @@ namespace IndieStudio.DrawingAndColoring.Logic
 			}
 		}
 
+		public Vector3 lastPos = Vector3.zero;
+
 		/// <summary>
 		/// Get the current platform click position.
 		/// </summary>
@@ -282,9 +284,33 @@ namespace IndieStudio.DrawingAndColoring.Logic
 
 			if (currentLine != null) {
 				//Add touch/click point into current line
-				currentLine.AddPoint (GetCurrentPlatformClickPosition(drawCamera));
+
+				var point = GetCurrentPlatformClickPosition(drawCamera);
+				if (selectObj != null)
+				{
+					Collider2D hit = Physics2D.OverlapPoint(point);
+					if (hit != null && hit.transform != null)
+					{
+						Debug.Log($"hit name{hit.transform.gameObject.name}");
+
+						//Set the parent of line
+						if (hit.transform.gameObject == selectObj)
+						{
+							currentLine.AddPoint(point);
+						}
+					}
+				}
+				else
+				{
+					currentLine.AddPoint(point);
+				}
+
+
+                
 			}
 		}
+
+		public GameObject selectObj = null;
 
 		/// <summary>
 		/// Line feature on click began.
@@ -298,9 +324,22 @@ namespace IndieStudio.DrawingAndColoring.Logic
 			
 			//Create new line gameobject
 			GameObject line = Instantiate (linePrefab, Vector3.zero, Quaternion.identity) as GameObject;
+
+
+			Vector2 mouse_world_position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+			Collider2D hit = Physics2D.OverlapPoint(mouse_world_position);
+			if (hit != null && hit.transform != null)
+			{
+				Debug.Log($"hit name{hit.transform.gameObject.name}");
+				//Set the parent of line
+				line.transform.SetParent(hit.transform);
+				lastPos = mouse_world_position;
+				if (selectObj == null)
+					selectObj = hit.transform.gameObject;
+			}
+
 			
-			//Set the parent of line
-			line.transform.SetParent(Area.shapesDrawingContents[ShapesManager.instance.lastSelectedShape].transform);
 			
 			//Set the name of the line
 			line.name = "Line";
@@ -355,7 +394,7 @@ namespace IndieStudio.DrawingAndColoring.Logic
 		/// Line feature on click released.
 		/// </summary>
 		private void LineFeatureOnClickReleased(){
-			
+			selectObj = null;
 			if (currentLine != null) {
 
 				if (currentLine.GetPointsCount () == 0) {//Zero Points
