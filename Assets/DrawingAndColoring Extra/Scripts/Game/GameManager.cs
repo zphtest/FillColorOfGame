@@ -655,12 +655,22 @@ namespace IndieStudio.DrawingAndColoring.Logic
 					drawingContents.transform.localScale = Vector3.one;
 					drawingContents.SetActive (false);
 
+					GameObject drawParts = new GameObject("DrawParts");
+
+					drawParts.transform.SetParent(drawingContents.transform);
+
 					Transform shapeParts = s.gamePrefab.transform.Find ("Parts");
 					if (shapeParts != null) {
 						foreach(Transform part in shapeParts){
 							if(part.GetComponent<ShapePart>()!=null && part.GetComponent<SpriteRenderer>()!=null){
 								drawingContentsComponent.shapePartsColors.Add(part.name,part.GetComponent<SpriteRenderer>().color);
 								drawingContentsComponent.shapePartsSortingOrder.Add(part.name,part.GetComponent<SpriteRenderer>().sortingOrder);
+
+								GameObject drawPart = new GameObject(part.gameObject.name);
+								if(drawPart.GetComponent<Image>() == null)
+									drawPart.AddComponent<Image>();
+								drawPart.GetComponent<Image>().sprite = part.GetComponent<SpriteRenderer>().sprite;
+								drawPart.transform.SetParent(drawParts.transform);
 							}
 						}
 					}
