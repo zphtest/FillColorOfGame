@@ -284,29 +284,26 @@ namespace IndieStudio.DrawingAndColoring.Logic
 
 			if (currentLine != null) {
 				//Add touch/click point into current line
+				currentLine.AddPoint(GetCurrentPlatformClickPosition(drawCamera));
+				//var point = GetCurrentPlatformClickPosition(drawCamera);
+				//if (selectObj != null)
+				//{
+				//	Collider2D hit = Physics2D.OverlapPoint(point);
+				//	if (hit != null && hit.transform != null)
+				//	{
+				//		Debug.Log($"hit name{hit.transform.gameObject.name}");
 
-				var point = GetCurrentPlatformClickPosition(drawCamera);
-				if (selectObj != null)
-				{
-					Collider2D hit = Physics2D.OverlapPoint(point);
-					if (hit != null && hit.transform != null)
-					{
-						Debug.Log($"hit name{hit.transform.gameObject.name}");
-
-						//Set the parent of line
-						if (hit.transform.gameObject == selectObj)
-						{
-							currentLine.AddPoint(point);
-						}
-					}
-				}
-				else
-				{
-					currentLine.AddPoint(point);
-				}
-
-
-                
+				//		//Set the parent of line
+				//		if (hit.transform.gameObject == selectObj)
+				//		{
+				//			currentLine.AddPoint(point);
+				//		}
+				//	}
+				//}
+				//else
+				//{
+				//	currentLine.AddPoint(point);
+				//}
 			}
 		}
 
@@ -326,21 +323,22 @@ namespace IndieStudio.DrawingAndColoring.Logic
 			GameObject line = Instantiate (linePrefab, Vector3.zero, Quaternion.identity) as GameObject;
 
 
-			Vector2 mouse_world_position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			//Vector2 mouse_world_position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-			Collider2D hit = Physics2D.OverlapPoint(mouse_world_position);
-			if (hit != null && hit.transform != null)
-			{
-				Debug.Log($"hit name{hit.transform.gameObject.name}");
-				//Set the parent of line
-				line.transform.SetParent(hit.transform);
-				lastPos = mouse_world_position;
-				if (selectObj == null)
-					selectObj = hit.transform.gameObject;
-			}
+			//Collider2D hit = Physics2D.OverlapPoint(mouse_world_position);
+			//if (hit != null && hit.transform != null)
+			//{
+			//	Debug.Log($"hit name{hit.transform.gameObject.name}");
+			//	//Set the parent of line
+			//	line.transform.SetParent(hit.transform);
+			//	lastPos = mouse_world_position;
+			//	if (selectObj == null)
+			//		selectObj = hit.transform.gameObject;
+			//}
 
-			
-			
+			//Set the parent of line
+			line.transform.SetParent(Area.shapesDrawingContents[ShapesManager.instance.lastSelectedShape].transform);
+
 			//Set the name of the line
 			line.name = "Line";
 			
@@ -694,9 +692,9 @@ namespace IndieStudio.DrawingAndColoring.Logic
 					drawingContents.transform.localScale = Vector3.one;
 					drawingContents.SetActive (false);
 
-					GameObject drawParts = new GameObject("DrawParts");
+					//GameObject drawParts = new GameObject("DrawParts");
 
-					drawParts.transform.SetParent(drawingContents.transform);
+					//drawParts.transform.SetParent(drawingContents.transform);
 
 					Transform shapeParts = s.gamePrefab.transform.Find ("Parts");
 					if (shapeParts != null) {
@@ -705,11 +703,11 @@ namespace IndieStudio.DrawingAndColoring.Logic
 								drawingContentsComponent.shapePartsColors.Add(part.name,part.GetComponent<SpriteRenderer>().color);
 								drawingContentsComponent.shapePartsSortingOrder.Add(part.name,part.GetComponent<SpriteRenderer>().sortingOrder);
 
-								GameObject drawPart = new GameObject(part.gameObject.name);
-								if(drawPart.GetComponent<Image>() == null)
-									drawPart.AddComponent<Image>();
-								drawPart.GetComponent<Image>().sprite = part.GetComponent<SpriteRenderer>().sprite;
-								drawPart.transform.SetParent(drawParts.transform);
+								//GameObject drawPart = new GameObject(part.gameObject.name);
+								//if(drawPart.GetComponent<Image>() == null)
+								//	drawPart.AddComponent<Image>();
+								//drawPart.GetComponent<Image>().sprite = part.GetComponent<SpriteRenderer>().sprite;
+								//drawPart.transform.SetParent(drawParts.transform);
 							}
 						}
 					}

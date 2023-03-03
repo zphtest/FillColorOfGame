@@ -28,7 +28,7 @@ namespace QFramework.Editor
             List<BuildDlcAssetFilter> dlcFilter, string resource_format = null)
 		{  
 			// Choose the output path according to the build target.
-			string outputPath = BundleSavePath;
+			string outputPath = Application.streamingAssetsPath +"/../../" + BundleSavePath;
 
 #if !UNITY_EDITOR && UNITY_ANDROID
             var options = BuildAssetBundleOptions.ChunkBasedCompression | BuildAssetBundleOptions.DisableWriteTypeTree;

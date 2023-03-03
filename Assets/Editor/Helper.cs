@@ -132,7 +132,7 @@ namespace QFramework.Editor
         /// <summary>
         /// AB 保存的路径
         /// </summary>
-        public static string BundleSavePath { get { return "DLC/" + Helper.GetPlatformName() + "/" + Application.version + "/" + BundleSaveName; } }
+        public static string BundleSavePath { get { return  "DLC/" + Helper.GetPlatformName() + "/" + Application.version + "/" + BundleSaveName; } }
         public static string BundleDlcvPath { get { return "DLC/" + Helper.GetPlatformName() + "/" + Application.version + "/ver.txt"; } }
         public static string BundleElogPath { get { return "DLC/" + Helper.GetPlatformName() + "/" + Application.version + "/elog.txt"; } }
 
