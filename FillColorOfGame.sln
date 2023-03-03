@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Network
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Configuration", "Unity.Services.Core.Configuration.csproj", "{C6700B50-1A11-E878-61C8-746EDA8A0366}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network", "Network.csproj", "{E9A71388-231E-2E55-3F84-9CA04419564C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlasticSCM.Editor", "Unity.PlasticSCM.Editor.csproj", "{07FF8D09-0023-BB3B-4D92-2468C4FEA4F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Core.Editor", "Unity.VisualScripting.Core.Editor.csproj", "{5D64DC1C-8F9A-3E24-B299-61143A604E00}"
@@ -165,6 +167,10 @@ Global
 		{C6700B50-1A11-E878-61C8-746EDA8A0366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6700B50-1A11-E878-61C8-746EDA8A0366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6700B50-1A11-E878-61C8-746EDA8A0366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A71388-231E-2E55-3F84-9CA04419564C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A71388-231E-2E55-3F84-9CA04419564C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A71388-231E-2E55-3F84-9CA04419564C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A71388-231E-2E55-3F84-9CA04419564C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{07FF8D09-0023-BB3B-4D92-2468C4FEA4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07FF8D09-0023-BB3B-4D92-2468C4FEA4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07FF8D09-0023-BB3B-4D92-2468C4FEA4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU

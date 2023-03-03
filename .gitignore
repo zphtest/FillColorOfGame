@@ -1,3 +1,6 @@
 ﻿*.csproj
 Library
 Temp
+obj
+.vs
+Logs
