@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 2112946068
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dad1ea9b50bd1aa59efb402812a2525e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f54e884acc71766ca30da1cc5448d533
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Animation/FlashOn.anim
+- Assets/GameMain/Animation/ScaleDown.anim
+- Assets/GameMain/Animation/LogoTitle.anim
+- Assets/GameMain/Animation/WhiteAreaOn.anim
+- Assets/GameMain/Animation/YRotation.anim
+- Assets/GameMain/Animation/FlashOff.anim
+- Assets/GameMain/Animation/ConfirmMessageOff.anim
+- Assets/GameMain/Animation/ScaleUp.anim
+- Assets/GameMain/Animation/WhiteAreaOff.anim
+- Assets/GameMain/Animation/OneScale.anim
+- Assets/GameMain/Animation/None.anim
+- Assets/GameMain/Animation/ConfirmMessageOn.anim
+Dependencies: []

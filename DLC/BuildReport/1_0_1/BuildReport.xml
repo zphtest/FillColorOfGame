@@ -1,0 +1,1640 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>DrawingColoring</ProductName>
+      <CompanyName>DefaultCompany</CompanyName>
+      <GameIdentifier>unity.DefaultCompany.Drawing And Coloring Extra</GameIdentifier>
+      <GameFrameworkVersion>2021.05.31</GameFrameworkVersion>
+      <UnityVersion>2021.3.16f1c1</UnityVersion>
+      <ApplicableGameVersion>1.0</ApplicableGameVersion>
+      <InternalResourceVersion>1</InternalResourceVersion>
+      <Platforms>Windows</Platforms>
+      <AssetBundleCompression>LZ4</AssetBundleCompression>
+      <CompressionHelperTypeName>UnityGameFramework.Runtime.DefaultCompressionHelper</CompressionHelperTypeName>
+      <AdditionalCompressionSelected>True</AdditionalCompressionSelected>
+      <ForceRebuildAssetBundleSelected>False</ForceRebuildAssetBundleSelected>
+      <BuildEventHandlerTypeName>StarForce.Editor.StarForceBuildEventHandler</BuildEventHandlerTypeName>
+      <OutputDirectory>D:/UnityWork/FillColorOfGame/DLC</OutputDirectory>
+      <BuildAssetBundleOptions>DeterministicAssetBundle, ChunkBasedCompression</BuildAssetBundleOptions>
+    </Summary>
+    <Resources Count="17">
+      <Resource Name="Animation" Extension="dat" LoadType="0" Packed="True">
+        <Assets Count="12">
+          <Asset Guid="0c50ebfe35e275143880c19f888ee6f4" Name="Assets/GameMain/Animation/WhiteAreaOff.anim" Length="9776" HashCode="101576654" />
+          <Asset Guid="15bf0429ada8e7c48a58fb42aae82722" Name="Assets/GameMain/Animation/LogoTitle.anim" Length="9776" HashCode="-961483811" />
+          <Asset Guid="22ec59634a9a46f409be95fdc2212483" Name="Assets/GameMain/Animation/ScaleDown.anim" Length="10536" HashCode="-84882531" />
+          <Asset Guid="24c16598d02068d4fad989a68842c47e" Name="Assets/GameMain/Animation/None.anim" Length="8952" HashCode="523218079" />
+          <Asset Guid="28cca93a812fa1e4987d72e203683274" Name="Assets/GameMain/Animation/ScaleUp.anim" Length="9360" HashCode="-321236569" />
+          <Asset Guid="670d47aa45cf6d847a73ba12e6fa3dd4" Name="Assets/GameMain/Animation/OneScale.anim" Length="9256" HashCode="-1740533386" />
+          <Asset Guid="7efd2303231099c48a5a76faa8e0b212" Name="Assets/GameMain/Animation/FlashOff.anim" Length="10952" HashCode="-1419451135" />
+          <Asset Guid="8ca8cb4f2c0df2a46ac6a8f92a516e85" Name="Assets/GameMain/Animation/YRotation.anim" Length="11020" HashCode="1957632255" />
+          <Asset Guid="91b7b667fe98a344db542408676b9d03" Name="Assets/GameMain/Animation/ConfirmMessageOn.anim" Length="9676" HashCode="-1035786385" />
+          <Asset Guid="bbc240a5ef25d6d42b3a521c4960d9eb" Name="Assets/GameMain/Animation/ConfirmMessageOff.anim" Length="9680" HashCode="437107639" />
+          <Asset Guid="e580cbac9d35f9040aa83e3857e5fbf7" Name="Assets/GameMain/Animation/FlashOn.anim" Length="11352" HashCode="-61484857" />
+          <Asset Guid="f5aed8e27ada2f24db2c0a98551a90b2" Name="Assets/GameMain/Animation/WhiteAreaOn.anim" Length="9776" HashCode="1906664572" />
+        </Assets>
+        <Codes>
+          <Windows Length="8212" HashCode="-1480416881" CompressedLength="6234" CompressedHashCode="-1260573095" />
+        </Codes>
+      </Resource>
+      <Resource Name="Animator" Extension="dat" LoadType="0" Packed="True">
+        <Assets Count="7">
+          <Asset Guid="0205a805104add148ac9d0a40b8a6031" Name="Assets/GameMain/Animator/ConfirmDialog.controller" Length="8464" HashCode="918273797">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animation/ConfirmMessageOff.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/ConfirmMessageOn.anim" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="17f4d092da1b72b43a42f5ce4911e77d" Name="Assets/GameMain/Animator/LogoTitle.controller" Length="6608" HashCode="1059665810">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Animation/LogoTitle.anim" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="1a9f90389635e0849a3f29d0237a4fc9" Name="Assets/GameMain/Animator/YRotation.controller" Length="6608" HashCode="2108599779">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Animation/YRotation.anim" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="85ddbbf94eb145847a9b872ec1e58bd8" Name="Assets/GameMain/Animator/Scale.controller" Length="8728" HashCode="-1072810894">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animation/OneScale.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/ScaleDown.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/ScaleUp.anim" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="a1794a58c38042949a2d99e8ae6ed198" Name="Assets/GameMain/Animator/Flash.controller" Length="9040" HashCode="-1492184227">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animation/FlashOff.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/FlashOn.anim" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="abe44c25e422ab042804b78945ac667a" Name="Assets/GameMain/Animator/WhiteArea.controller" Length="8432" HashCode="-430036337">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animation/WhiteAreaOff.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/WhiteAreaOn.anim" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="c454080d636f840038dc8f37941751b3" Name="Assets/GameMain/Animator/Button.controller" Length="19584" HashCode="-274818728" />
+        </Assets>
+        <Codes>
+          <Windows Length="11311" HashCode="-607126198" CompressedLength="8695" CompressedHashCode="317847451" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables" Extension="dat" FileSystem="GameData" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="6">
+          <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" Name="Assets/GameMain/DataTables/Sound.txt" Length="868" HashCode="-981921304" />
+          <Asset Guid="8e114ded6a865324588170636872943c" Name="Assets/GameMain/DataTables/UISound.bytes" Length="29" HashCode="-540465734" />
+          <Asset Guid="9c3faac13c8ced84a9f3018303b7bb98" Name="Assets/GameMain/DataTables/Sound.bytes" Length="167" HashCode="-1089466089" />
+          <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" Name="Assets/GameMain/DataTables/Scene.txt" Length="242" HashCode="579142478" />
+          <Asset Guid="f2f97a713beae744181ba934f9c4113a" Name="Assets/GameMain/DataTables/UISound.txt" Length="334" HashCode="1201326981" />
+          <Asset Guid="fdb5edd099d06b045af609ba3172400a" Name="Assets/GameMain/DataTables/Scene.bytes" Length="16" HashCode="-1984402515" />
+        </Assets>
+        <Codes>
+          <Windows Length="2204" HashCode="-890000956" CompressedLength="1850" CompressedHashCode="1690066997" />
+        </Codes>
+      </Resource>
+      <Resource Name="Fonts" Extension="dat" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="02e46028b1682b14684b748bc08a708b" Name="Assets/GameMain/Fonts/DroidSansMono.ttf" Length="117072" HashCode="-1482529193" />
+        </Assets>
+        <Codes>
+          <Windows Length="88059" HashCode="-1736868544" CompressedLength="78155" CompressedHashCode="-43924579" />
+        </Codes>
+      </Resource>
+      <Resource Name="Localization/Dictionaries" Variant="en-us" Extension="dat" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="14869ac0d4433f04db1704e39d03412e" Name="Assets/GameMain/Localization/English/Dictionaries/Default.xml" Length="2000" HashCode="1146807728" />
+        </Assets>
+        <Codes>
+          <Windows Length="2187" HashCode="1225648042" CompressedLength="1822" CompressedHashCode="304031924" />
+        </Codes>
+      </Resource>
+      <Resource Name="Localization/Dictionaries" Variant="ko-kr" Extension="dat" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="5dcd89912e222bf4c87f76db4044bc5e" Name="Assets/GameMain/Localization/Korean/Dictionaries/Default.xml" Length="2190" HashCode="-738335701" />
+        </Assets>
+        <Codes>
+          <Windows Length="2252" HashCode="-1830802754" CompressedLength="1943" CompressedHashCode="-23918178" />
+        </Codes>
+      </Resource>
+      <Resource Name="Localization/Dictionaries" Variant="zh-cn" Extension="dat" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="9be2e1e45f4edd74c8764538ad306b78" Name="Assets/GameMain/Localization/ChineseSimplified/Dictionaries/Default.xml" Length="1929" HashCode="906227867" />
+        </Assets>
+        <Codes>
+          <Windows Length="2145" HashCode="1049053108" CompressedLength="1863" CompressedHashCode="-729200706" />
+        </Codes>
+      </Resource>
+      <Resource Name="Localization/Dictionaries" Variant="zh-tw" Extension="dat" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="1053b0070685be347ab58587156842dc" Name="Assets/GameMain/Localization/ChineseTraditional/Dictionaries/Default.xml" Length="1930" HashCode="-1789351214" />
+        </Assets>
+        <Codes>
+          <Windows Length="2150" HashCode="1906236451" CompressedLength="1869" CompressedHashCode="710974502" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials" Extension="dat" LoadType="0" Packed="True">
+        <Assets Count="3">
+          <Asset Guid="938dbc456f881cc468a42af961c47fb1" Name="Assets/GameMain/Materials/Crayon.mat" Length="6020" HashCode="737493745">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/CrayonTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="afc015bccca32b649a795e0df7baf3e8" Name="Assets/GameMain/Materials/Water.mat" Length="5188" HashCode="629561993" />
+          <Asset Guid="bf12147c1f604ad4eb53d18d25d3761a" Name="Assets/GameMain/Materials/Normal.mat" Length="4952" HashCode="1516546325" />
+        </Assets>
+        <Codes>
+          <Windows Length="31743" HashCode="-1575143290" CompressedLength="26964" CompressedHashCode="-1066273867" />
+        </Codes>
+      </Resource>
+      <Resource Name="Meshes" Extension="dat" FileSystem="Resources" LoadType="0" Packed="True">
+        <Assets Count="6">
+          <Asset Guid="2768a9a4c8d289840918dcb879705893" Name="Assets/GameMain/Meshes/prop_asteroid_03.FBX" Length="52288" HashCode="-1722450471" />
+          <Asset Guid="5282f20eba4d44213820e21af8481932" Name="Assets/GameMain/Meshes/vehicle_playerShip_collider.FBX" Length="19056" HashCode="1860635943" />
+          <Asset Guid="9afa958d6d8235941b9badb42aae4370" Name="Assets/GameMain/Meshes/prop_asteroid_02.FBX" Length="41168" HashCode="1343012427" />
+          <Asset Guid="9ddab293e2a8af3499dac05f5fd6169c" Name="Assets/GameMain/Meshes/vehicle_enemyShip.FBX" Length="120512" HashCode="-379217913" />
+          <Asset Guid="baedbbad82997f445a8cb4da210404e0" Name="Assets/GameMain/Meshes/prop_asteroid_01.FBX" Length="46624" HashCode="1188617936" />
+          <Asset Guid="d9808401c68af274a8edfbed3d1b53c7" Name="Assets/GameMain/Meshes/vehicle_playerShip.FBX" Length="104528" HashCode="-999938615" />
+        </Assets>
+        <Codes>
+          <Windows Length="315438" HashCode="473738492" CompressedLength="273832" CompressedHashCode="-1398869544" />
+        </Codes>
+      </Resource>
+      <Resource Name="Music/About" Extension="dat" FileSystem="Resources" LoadType="0" Packed="True" ResourceGroups="Music">
+        <Assets Count="1">
+          <Asset Guid="093f8873cfe371d41b854ed9fb6bff69" Name="Assets/GameMain/Music/music_about.mp3" Length="5188156" HashCode="-1448743119" />
+        </Assets>
+        <Codes>
+          <Windows Length="3368343" HashCode="-1559635528" CompressedLength="3357102" CompressedHashCode="150767927" />
+        </Codes>
+      </Resource>
+      <Resource Name="Music/Background" Extension="dat" FileSystem="Resources" LoadType="0" Packed="True" ResourceGroups="Music">
+        <Assets Count="1">
+          <Asset Guid="638ff8ae4a0d15047839cd265d3bc296" Name="Assets/GameMain/Music/music_background.mp3" Length="2336432" HashCode="588648626" />
+        </Assets>
+        <Codes>
+          <Windows Length="127413" HashCode="997990421" CompressedLength="126777" CompressedHashCode="1743175215" />
+        </Codes>
+      </Resource>
+      <Resource Name="Music/Menu" Extension="dat" FileSystem="Resources" LoadType="0" Packed="True" ResourceGroups="Music">
+        <Assets Count="1">
+          <Asset Guid="caa829ab2ffc71340a69253afdf58365" Name="Assets/GameMain/Music/music_menu.mp3" Length="1866065" HashCode="306016124" />
+        </Assets>
+        <Codes>
+          <Windows Length="998000" HashCode="-1828557030" CompressedLength="996282" CompressedHashCode="913816080" />
+        </Codes>
+      </Resource>
+      <Resource Name="Scenes" Extension="dat" FileSystem="Resources" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="bb91497f4b93eee4eb1477ed8d98e57c" Name="Assets/GameMain/Scenes/Album.unity" Length="64488" HashCode="357403610">
+            <DependencyAssets Count="15">
+              <DependencyAsset Name="Assets/GameMain/Animator/Button.controller" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/DroidSansMono.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Box.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Element.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/LeftArrow.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PointerDisabled.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PointerEnabled.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/RightArrow.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SelectPicture.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/AdsManager.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/AudioSources.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Group.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pointer.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Shape.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/ShapesManager.prefab" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="edee28a6fe3ccd749a4c0942036877d3" Name="Assets/GameMain/Scenes/Game.unity" Length="156480" HashCode="-1672048136">
+            <DependencyAssets Count="168">
+              <DependencyAsset Name="Assets/GameMain/Animator/Button.controller" />
+              <DependencyAsset Name="Assets/GameMain/Animator/ConfirmDialog.controller" />
+              <DependencyAsset Name="Assets/GameMain/Animator/Flash.controller" />
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Animator/WhiteArea.controller" />
+              <DependencyAsset Name="Assets/GameMain/Animator/YRotation.controller" />
+              <DependencyAsset Name="Assets/GameMain/Fonts/DroidSansMono.ttf" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Crayon.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Normal.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Water.mat" />
+              <DependencyAsset Name="Assets/GameMain/Sounds/camera_shutter.wav" />
+              <DependencyAsset Name="Assets/GameMain/Sounds/stamp.wav" />
+              <DependencyAsset Name="Assets/GameMain/Textures/BackArrow.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Box.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Red-WaterBrush.png..png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Circle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Orange-Crayon.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Cursor.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CurvedArrow.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Eraser.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Gradient-Pencil.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Hand.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/LeftArrow.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Logo.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/TreeGree-PaintingCan.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Cyan-PaintRoller.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Pink-Paint.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Brown-Pencil.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/TreeGreen-Pencil.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Print.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Rect.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/ResetZoom.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/RightArrow.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/Purple-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/AppleGreen-Stamp.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Trash.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/ZoomIn.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/ZoomOut.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/AdsManager.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/AudioSources.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/AppleGreen-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Black-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Brown-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Cyan-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Gray-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/HotPink-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/LightBrown-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/NavyBlue-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Orange-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Pink-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Purple-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Red-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/TreeGreen-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Yellow-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Cursor.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Line.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/AppleGreen-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Black-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Brown-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Cyan-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Gray-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/HotPink-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/LightBrown-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/NavyBlue-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Orange-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Pink-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Purple-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Red-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/TreeGreen-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Yellow-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/AppleGreen-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Black-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Brown-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Cyan-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Gray-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/HotPink-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/LightBrown-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/NavyBlue-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Orange-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Pink-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Purple-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Red-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/TreeGreen-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Yellow-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/AppleGreen-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Black-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Brown-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Cyan-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Gray-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/HotPink-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/LightBrown-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/NavyBlue-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Orange-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Pink-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Purple-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Red-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/TreeGreen-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Yellow-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/AppleGreen-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Black-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Brown-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Cyan-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Gray-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/HotPink-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/LightBrown-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/NavyBlue-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Orange-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Pink-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Purple-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Red-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/TreeGreen-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Yellow-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/ShapesManager.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/AppleGreen-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/Black-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/Brown-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/Cyan-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/Gray-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/HotPink-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/LightBrown-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/NavyBlue-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/Orange-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/Pink-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/Purple-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/Red-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/TreeGreen-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Sparkles/Yellow-Sparkle.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/StampPrefab.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/AppleGreen-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Black-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Brown-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Cyan-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Gray-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/HotPink-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/LightBrown-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/NavyBlue-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Orange-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Pink-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Purple-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Red-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/TreeGreen-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Yellow-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Tools/CrayonlTool.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Tools/EraserTool.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Tools/HandTool.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Tools/PaintingCanTool.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Tools/PaintRollerTool.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Tools/PaintTool.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Tools/PencilTool.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Tools/StampTool.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Tools/StufflTool.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Tools/WaterColorTool.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/TrashConfirmDialog.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/AppleGreen-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Black-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Brown-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Cyan-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Gray-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/HotPink-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/LightBrown-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/NavyBlue-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Orange-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Pink-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Purple-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Red-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/TreeGreen-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Yellow-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WhiteArea.prefab" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="60508" HashCode="-218712100" CompressedLength="47118" CompressedHashCode="333727255" />
+        </Codes>
+      </Resource>
+      <Resource Name="Sounds" Extension="dat" FileSystem="Resources" LoadType="0" Packed="True">
+        <Assets Count="10">
+          <Asset Guid="0c1f8929ce6aea04c9533b7163775f20" Name="Assets/GameMain/Sounds/popping-bubble.wav" Length="55562" HashCode="5405523" />
+          <Asset Guid="1947fbcd6faf5894baa5188e341cc1cc" Name="Assets/GameMain/Sounds/stamp.wav" Length="37040" HashCode="-1813604727" />
+          <Asset Guid="1be4472894949437694aead55c6da60f" Name="Assets/GameMain/Sounds/weapon_enemy.wav" Length="51004" HashCode="-1155291960" />
+          <Asset Guid="3dc7455402dfa462b89a4bbd513955e9" Name="Assets/GameMain/Sounds/explosion_asteroid.wav" Length="149216" HashCode="305962817" />
+          <Asset Guid="72e76810224064300b7d32e8322a5d12" Name="Assets/GameMain/Sounds/explosion_enemy.wav" Length="174116" HashCode="-984961901" />
+          <Asset Guid="a019ae3af8e864616b85773c509f5285" Name="Assets/GameMain/Sounds/explosion_player.wav" Length="326536" HashCode="2022881377" />
+          <Asset Guid="bf75b984df8a84987bcf3a8bf6e2862d" Name="Assets/GameMain/Sounds/weapon_player.wav" Length="65792" HashCode="1405407806" />
+          <Asset Guid="c7d1e11dd37634b48a9dd4012b8e4306" Name="Assets/GameMain/Sounds/click.wav" Length="41568" HashCode="-1547829698" />
+          <Asset Guid="e06c98f817d3db84ca1a53acb97e51f3" Name="Assets/GameMain/Sounds/camera_shutter.wav" Length="184398" HashCode="1934670215" />
+          <Asset Guid="e830964cdb85ff3429bca484c16bab44" Name="Assets/GameMain/Sounds/select.wav" Length="41568" HashCode="-1920478215" />
+        </Assets>
+        <Codes>
+          <Windows Length="104578" HashCode="1709462233" CompressedLength="102552" CompressedHashCode="460053043" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures" Extension="dat" LoadType="0" Packed="True">
+        <Assets Count="184">
+          <Asset Guid="0294d2971816e4f41bfa989f7f2d9015" Name="Assets/GameMain/Textures/Brushes/NavyBlue-WaterBrush.png" Length="3973" HashCode="2105218028" />
+          <Asset Guid="06438cd1aea81af4ebcd322ce5d90114" Name="Assets/GameMain/Textures/CharactersParts/Fox Parts.png" Length="21181" HashCode="578571265" />
+          <Asset Guid="095aaaf686c83914f82366f691a77aab" Name="Assets/GameMain/Textures/Stamps/Black-Stamp.png" Length="5114" HashCode="1393413230" />
+          <Asset Guid="097904c9e3cf89642a05a826813e3a65" Name="Assets/GameMain/Textures/PaintingCans/TreeGree-PaintingCan.png" Length="11399" HashCode="-174484698" />
+          <Asset Guid="0aee9bd3bc9007a4a933b85976d7d9b2" Name="Assets/GameMain/Textures/Paints/LightBrown-Paint.png" Length="6365" HashCode="-314751027" />
+          <Asset Guid="0ed06b312831a1d43995bea96461d89e" Name="Assets/GameMain/Textures/Brushes/Pink-WaterBrush.png" Length="3976" HashCode="-1284103076" />
+          <Asset Guid="100ecb5e69b728448949cc554312859f" Name="Assets/GameMain/Textures/PointerDisabled.png" Length="8691" HashCode="881462062" />
+          <Asset Guid="11577849a49ca4e4095b1a5ff3a3a823" Name="Assets/GameMain/Textures/PaintRoller/Red-PaintRoller.png" Length="6353" HashCode="177639428" />
+          <Asset Guid="1252aad743eea274f837843a7e09e701" Name="Assets/GameMain/Textures/Stamps/Orange-Stamp.png" Length="9958" HashCode="-772965532" />
+          <Asset Guid="14474bfd0e09c144eae93b903fecc611" Name="Assets/GameMain/Textures/Sparkes/Gray-Sparkle.png" Length="24192" HashCode="-1860642012" />
+          <Asset Guid="1552645e4155fe1419a9000d214a37b0" Name="Assets/GameMain/Textures/Stuff/Bird.png" Length="3384" HashCode="411968333" />
+          <Asset Guid="15682a88642a7014dab05db3bd85b309" Name="Assets/GameMain/Textures/Characters/JellyFish.png" Length="44047" HashCode="-1846467984" />
+          <Asset Guid="1618188f3a2d33b418b072663126e23a" Name="Assets/GameMain/Textures/Pencils/NavyBlue-Pencil.png" Length="3763" HashCode="-364726541" />
+          <Asset Guid="1736e8e393512324a9fcad8418aa1f8a" Name="Assets/GameMain/Textures/Paints/Brown-Paint.png" Length="6301" HashCode="947112725" />
+          <Asset Guid="1774608fa45b6c744804054b11de25aa" Name="Assets/GameMain/Textures/CharactersParts/Lion Parts.png" Length="30681" HashCode="998614883" />
+          <Asset Guid="1871cef3b80810d43b096d01a253f759" Name="Assets/GameMain/Textures/Characters/Yak.png" Length="34222" HashCode="1508344850" />
+          <Asset Guid="1c5a81185a146c8478314a2a3006ba82" Name="Assets/GameMain/Textures/CharactersParts/Koala Parts.png" Length="17344" HashCode="419587101" />
+          <Asset Guid="1ce005804d8e18b48818650a0e1ae103" Name="Assets/GameMain/Textures/PaintingCans/Pink-PaintingCan.png" Length="11044" HashCode="-1678115164" />
+          <Asset Guid="1f3b478e2ae5c4844b8c1f708b2f02bd" Name="Assets/GameMain/Textures/Stamps/Brown-Stamp.png" Length="5586" HashCode="971373443" />
+          <Asset Guid="1f735c8a1b8b9e54eaa8780e4bfe4445" Name="Assets/GameMain/Textures/PaintingCans/LightBrown-PaintingCan.png" Length="11689" HashCode="592672757" />
+          <Asset Guid="203c2db16bc96e848b5ac3bc4780ba92" Name="Assets/GameMain/Textures/PaintRoller/Yellow-PaintRoller.png" Length="5771" HashCode="1086800161" />
+          <Asset Guid="204856650914c8b4692ecc58118b10e8" Name="Assets/GameMain/Textures/Stuff/Star.png" Length="2432" HashCode="1824283970" />
+          <Asset Guid="21ca452309b6bcd44928aed9349201a1" Name="Assets/GameMain/Textures/Characters/Panda.png" Length="40443" HashCode="-1538464445" />
+          <Asset Guid="2384fbf81f5ead641b8d5af29aa4a4a0" Name="Assets/GameMain/Textures/Characters/Hen.png" Length="32015" HashCode="-1857192650" />
+          <Asset Guid="24be8442de24b094d804e38253e4eabc" Name="Assets/GameMain/Textures/Characters/Zebra.png" Length="58978" HashCode="-468228469" />
+          <Asset Guid="27c474f36f0127a4dbe8a6dd9195f9dc" Name="Assets/GameMain/Textures/CharactersParts/Zebra Parts.png" Length="25557" HashCode="-1783375303" />
+          <Asset Guid="28629aa50a90f7c43ac145f28c52917c" Name="Assets/GameMain/Textures/Paints/Pink-Paint.png" Length="6335" HashCode="1631296545" />
+          <Asset Guid="296b512eef230e34ca637105a2453fb2" Name="Assets/GameMain/Textures/Pencils/Brown-Pencil.png" Length="3793" HashCode="-286212590" />
+          <Asset Guid="2a987f55adb32174493b4d037926b9cd" Name="Assets/GameMain/Textures/CharactersParts/Yak Parts.png" Length="19467" HashCode="-15745453" />
+          <Asset Guid="2aa014017400246428dde26ab3c2992e" Name="Assets/GameMain/Textures/PaintingCans/NavyBlue-PaintingCan.png" Length="11405" HashCode="1885112693" />
+          <Asset Guid="2affa05ac01c37c4ba724bd7fc97cc3e" Name="Assets/GameMain/Textures/CharactersParts/Dinasour Parts.png" Length="13221" HashCode="1187786719" />
+          <Asset Guid="2bb25e4972c7a9441a77304dec733975" Name="Assets/GameMain/Textures/Paints/Yellow-Paint.png" Length="6292" HashCode="1729168655" />
+          <Asset Guid="2bccdd21fa5f8844481b536fc6a0104e" Name="Assets/GameMain/Textures/CharactersParts/Hen Parts.png" Length="14713" HashCode="-1900577939" />
+          <Asset Guid="2c56e41e49ab2a24b9a2ee5321ac582f" Name="Assets/GameMain/Textures/PaintingCans/Purple-PaintingCan.png" Length="10991" HashCode="-1753187496" />
+          <Asset Guid="2d6765a0e294c734080ed8790a888f39" Name="Assets/GameMain/Textures/Stamps/AppleGreen-Stamp.png" Length="5703" HashCode="-417899302" />
+          <Asset Guid="2e76f18d30da6304d8306c4d60142d9e" Name="Assets/GameMain/Textures/Paints/Cyan-Paint.png" Length="6347" HashCode="171231112" />
+          <Asset Guid="30889b031543fdc498de895835ce8e2f" Name="Assets/GameMain/Textures/Brushes/HotPink-WaterBrush.png" Length="4056" HashCode="2125602321" />
+          <Asset Guid="31bc79ff31708ba49b732ad11c4c419d" Name="Assets/GameMain/Textures/Characters/FreeArea.png" Length="2460" HashCode="2006870987" />
+          <Asset Guid="33f0a31201b909d4db28f0d905739125" Name="Assets/GameMain/Textures/Stamps/Gray-Stamp.png" Length="8136" HashCode="1414650553" />
+          <Asset Guid="34a5fa11ac03c5c4abdab871f4debc37" Name="Assets/GameMain/Textures/CharactersParts/Panda Parts.png" Length="23731" HashCode="-2029519792" />
+          <Asset Guid="36faa44ab04c98448bc55ebdea847cc3" Name="Assets/GameMain/Textures/Crayons/Purple-Crayon.png" Length="4058" HashCode="-1166705714" />
+          <Asset Guid="37a8dadaf7ea29c4fa6b46ee41e4c787" Name="Assets/GameMain/Textures/Paints/Black-Paint.png" Length="6253" HashCode="578532623" />
+          <Asset Guid="3b65ad4593b3ce9448c7b244ebb986bb" Name="Assets/GameMain/Textures/Crayons/HotPink-Crayon.png" Length="4643" HashCode="1463437807" />
+          <Asset Guid="3d941e885ac970b49aa58787ff9e2d52" Name="Assets/GameMain/Textures/PaintingCans/Gray-PaintingCan.png" Length="11042" HashCode="1592427529" />
+          <Asset Guid="3db3da90449bb15498068fd59c1dede3" Name="Assets/GameMain/Textures/PaintRoller/AppleTree-PaintRoller.png" Length="6141" HashCode="1489279409" />
+          <Asset Guid="3fe8da64b48707e4ba2cd63c997273b6" Name="Assets/GameMain/Textures/LeftArrow.png" Length="3855" HashCode="1121133204" />
+          <Asset Guid="41131383fc23ecb41b549b84dfff527d" Name="Assets/GameMain/Textures/Sparkes/AppleGreen-Sparkle.png" Length="28745" HashCode="445731546" />
+          <Asset Guid="41a07f2948221454da4fdffe63b73074" Name="Assets/GameMain/Textures/CharactersParts/JellyFish Parts.png" Length="15579" HashCode="421244440" />
+          <Asset Guid="45d6d4226c8b7e740825b72686fdd5dd" Name="Assets/GameMain/Textures/PaintingCans/Cyan-PaintingCan.png" Length="11536" HashCode="880115889" />
+          <Asset Guid="474bcb5f41b2f2549b82b09d64ddd7a6" Name="Assets/GameMain/Textures/Paints/HotPink-Paint.png" Length="6417" HashCode="2007250366" />
+          <Asset Guid="4879403ae808d6e48aec5017e03ba56c" Name="Assets/GameMain/Textures/SparkleTexture.png" Length="4748" HashCode="-57868589" />
+          <Asset Guid="48cd9790674f65b43a7256b85e5cf46b" Name="Assets/GameMain/Textures/Sparkes/Black-Sparkle.png" Length="27049" HashCode="-1062498923" />
+          <Asset Guid="4afbf1e8d617f964781b4ac8626258ab" Name="Assets/GameMain/Textures/Stuff/Empty.png" Length="122" HashCode="-1688588135" />
+          <Asset Guid="4b78f77ca38f41f469dc6cc0fa73d1ec" Name="Assets/GameMain/Textures/Characters/Dinasour.png" Length="34109" HashCode="-1710925116" />
+          <Asset Guid="4d016b35c6f202849968ee2b66c4b3bc" Name="Assets/GameMain/Textures/Crayons/Black-Crayon.png" Length="4657" HashCode="991967510" />
+          <Asset Guid="4db7fbf8a1143c3449d838c5ab6e436d" Name="Assets/GameMain/Textures/Crayons/Yellow-Crayon.png" Length="4663" HashCode="1205493831" />
+          <Asset Guid="4dff535b9c365ba43b338c668e198a5a" Name="Assets/GameMain/Textures/Crayons/Cyan-Crayon.png" Length="4977" HashCode="-2005916572" />
+          <Asset Guid="4f169ffb8db9c444481bb7f10bc92ec2" Name="Assets/GameMain/Textures/Crayons/NavyBlue-Crayon.png" Length="4666" HashCode="53821846" />
+          <Asset Guid="5005e76359bd0274facf805549eed2cb" Name="Assets/GameMain/Textures/PaintRoller/LightBrown-PaintRoller.png" Length="6507" HashCode="-1999324243" />
+          <Asset Guid="501f36804c2cdd647950d8bf0d213564" Name="Assets/GameMain/Textures/Characters/Rabbit.png" Length="54201" HashCode="2075076998" />
+          <Asset Guid="510b94896636a854b906f6bb18fb1e9f" Name="Assets/GameMain/Textures/Crayons/Red-Crayon.png" Length="4738" HashCode="881076339" />
+          <Asset Guid="51b943c6f8544354db2002b59703d45b" Name="Assets/GameMain/Textures/Brushes/Cyan-WaterBrush.png" Length="4046" HashCode="846874020" />
+          <Asset Guid="52338cf1d8322db4d9aaef819ce26b5b" Name="Assets/GameMain/Textures/Pencils/Orange-Pencil.png" Length="3769" HashCode="-753053513" />
+          <Asset Guid="528f6ed4af71229439192944ccbc5fa0" Name="Assets/GameMain/Textures/Logo.png" Length="60927" HashCode="-407073812" />
+          <Asset Guid="53a75db5e06881248857513c2dda2fdf" Name="Assets/GameMain/Textures/ZoomIn.png" Length="5603" HashCode="738519487" />
+          <Asset Guid="54048e596c8c3e94ea8262871690aee0" Name="Assets/GameMain/Textures/Crayons/AppleGreen-Crayon.png" Length="4933" HashCode="-248705479" />
+          <Asset Guid="545975aee785c8340ab90417be00afeb" Name="Assets/GameMain/Textures/Characters/Elephanet.png" Length="26970" HashCode="-614268116" />
+          <Asset Guid="5692e42c2b1ec524c917cfab308d0619" Name="Assets/GameMain/Textures/Stamps/Yellow-Stamp.png" Length="4815" HashCode="97762605" />
+          <Asset Guid="5b795891ec4dcb64893ca5f1a88aba2d" Name="Assets/GameMain/Textures/PaintRoller/HotPink-PaintRoller.png" Length="7975" HashCode="-839033028" />
+          <Asset Guid="5b9f8db65ecdd1f45bf20769212cb814" Name="Assets/GameMain/Textures/Box.png" Length="6537" HashCode="-490438024" />
+          <Asset Guid="5de0070c71811ee4aa8d5d5e42f65eed" Name="Assets/GameMain/Textures/Paints/Purple-Paint.png" Length="6401" HashCode="-1983433969" />
+          <Asset Guid="5e6285d6e62fe6642b05fef49d583f88" Name="Assets/GameMain/Textures/ZoomOut.png" Length="5441" HashCode="-1688355420" />
+          <Asset Guid="60617cfc28c779c4d8ebbf9c9584ffdd" Name="Assets/GameMain/Textures/Stamps/LightBrown-Stamp.png" Length="7468" HashCode="-1791168020" />
+          <Asset Guid="613412c1068254d4e8afcd67627df179" Name="Assets/GameMain/Textures/Eraser.png" Length="7211" HashCode="722887424" />
+          <Asset Guid="66375c1d27409a64ebc0aceabd70b3f5" Name="Assets/GameMain/Textures/Stuff/Sun.png" Length="3089" HashCode="1855909164" />
+          <Asset Guid="672fd4e443940be4fa1c65f103fe4bb2" Name="Assets/GameMain/Textures/Cursor.png" Length="3574" HashCode="2005668981" />
+          <Asset Guid="6733f9d18d646824ab4f217eeb7599e3" Name="Assets/GameMain/Textures/Pencils/Black-Pencil.png" Length="3807" HashCode="-1853229043" />
+          <Asset Guid="6736a57fbcc9d1c45b1b593a0f55ea9d" Name="Assets/GameMain/Textures/Paints/NavyBlue-Paint.png" Length="6357" HashCode="-1395529567" />
+          <Asset Guid="68d46c9e186d23c4f83babc44607a51b" Name="Assets/GameMain/Textures/Pencils/Gray-Pencil.png" Length="3765" HashCode="-873639979" />
+          <Asset Guid="6d318d8cdc9283d40a01855f1ca60da2" Name="Assets/GameMain/Textures/Brushes/Yellow-WaterBrush.png" Length="4157" HashCode="592051345" />
+          <Asset Guid="6fc41b1b7343f2849a53f1785b92d089" Name="Assets/GameMain/Textures/Characters/Cat.png" Length="37927" HashCode="1333736997" />
+          <Asset Guid="700c59db0753bb04b9dc139c1a1dec5d" Name="Assets/GameMain/Textures/Crayons/Orange-Crayon.png" Length="4692" HashCode="-1305057694" />
+          <Asset Guid="703056ca6a173a14dacddc4a74d8108b" Name="Assets/GameMain/Textures/Paints/AppleTree-Paint.png" Length="6338" HashCode="-1382074681" />
+          <Asset Guid="707088f8a3f961b49bac6a28933021fc" Name="Assets/GameMain/Textures/Characters/Monkey.png" Length="27033" HashCode="-114805918" />
+          <Asset Guid="71501c4774e5e63409d7a2026ded70c1" Name="Assets/GameMain/Textures/Pencils/Pink-Pencil.png" Length="3773" HashCode="1378122691" />
+          <Asset Guid="72ca01f9687302048bdc1247c890a885" Name="Assets/GameMain/Textures/Brushes/Gray-WaterBrush.png" Length="3963" HashCode="1241876681" />
+          <Asset Guid="74557ca6352468940a3e232771a001d6" Name="Assets/GameMain/Textures/Circle.png" Length="5601" HashCode="-2037729218" />
+          <Asset Guid="747727a9418f0374caf4469416bacef0" Name="Assets/GameMain/Textures/Crayons/Brown-Crayon.png" Length="4881" HashCode="-1503813825" />
+          <Asset Guid="748105177e68d4e49ae29290a287e664" Name="Assets/GameMain/Textures/FreeDraw.png" Length="33685" HashCode="-1123318078" />
+          <Asset Guid="759c0e92da3f0fe4a9de5e569629a86c" Name="Assets/GameMain/Textures/Element.png" Length="22677" HashCode="565032453" />
+          <Asset Guid="75be6b5f9c6fef04f9c8fd7470c979f0" Name="Assets/GameMain/Textures/Brushes/TreeGreen-WaterBrush.png" Length="3967" HashCode="-895352631" />
+          <Asset Guid="78e79283f57cc4b4b8bcb633b4b771b2" Name="Assets/GameMain/Textures/Rect.png" Length="1375" HashCode="-1086655589" />
+          <Asset Guid="7a5225997b22be446b9426318c941cb1" Name="Assets/GameMain/Textures/CharactersParts/Rabbit Parts.png" Length="24639" HashCode="-610014410" />
+          <Asset Guid="7b714ad26f401d54fb804c9d765a86ab" Name="Assets/GameMain/Textures/PaintingCans/Orange-PaintingCan.png" Length="10109" HashCode="-1917239874" />
+          <Asset Guid="7c9f179a12777ad409ff5c13157a87f0" Name="Assets/GameMain/Textures/Characters/Lion.png" Length="49929" HashCode="-405880436" />
+          <Asset Guid="7ec9410405ef1734c8872bcbddab9de7" Name="Assets/GameMain/Textures/PaintRoller/Black-PaintRoller.png" Length="6400" HashCode="-1009161043" />
+          <Asset Guid="848b4ee7a0371224d9297a347699a87a" Name="Assets/GameMain/Textures/PaintingCans/AppleGreen-PaintingCan.png" Length="11542" HashCode="1000277621" />
+          <Asset Guid="848ce91614165cd48bf875c7859c4d78" Name="Assets/GameMain/Textures/ResetZoom.png" Length="5338" HashCode="-498019857" />
+          <Asset Guid="84bea90252c5210408eed9022268fa87" Name="Assets/GameMain/Textures/Characters/Xiphias.png" Length="18418" HashCode="-2064776718" />
+          <Asset Guid="8695544ab1ba9aa43ab35bc31813466e" Name="Assets/GameMain/Textures/Crayons/LightBrown-Crayon.png" Length="4926" HashCode="-1263202921" />
+          <Asset Guid="886af8b7e746dc949b66ac0af1d9593d" Name="Assets/GameMain/Textures/Paints/TreeGreen-Paint.png" Length="6385" HashCode="-1949854038" />
+          <Asset Guid="8ae2f70e429b95e4a8690605f932643f" Name="Assets/GameMain/Textures/Brushes/Brown-WaterBrush.png" Length="4043" HashCode="1481156705" />
+          <Asset Guid="8bbaa05e325eeb5409885435c91c40fa" Name="Assets/GameMain/Textures/Characters/Fox.png" Length="58181" HashCode="119751493" />
+          <Asset Guid="8bc65a531ab6e054c9f89fc3e05e25de" Name="Assets/GameMain/Textures/Pencils/HotPink-Pencil.png" Length="3782" HashCode="87666862" />
+          <Asset Guid="8bdd75c22b58297488c3d1b1e754d677" Name="Assets/GameMain/Textures/Sparkes/Yellow-Sparkle.png" Length="28407" HashCode="1232959632" />
+          <Asset Guid="8c743b35d3ede774ab5c54edce5e84fe" Name="Assets/GameMain/Textures/PaintingCans/HotPink-PaintingCan.png" Length="11254" HashCode="844045279" />
+          <Asset Guid="8d178adca7f610c4988016afe4304f84" Name="Assets/GameMain/Textures/Brushes/AppleGreen-WaterBrush.png" Length="4020" HashCode="-333345879" />
+          <Asset Guid="8d9720b7fdf413042b5063d8dbd79e8a" Name="Assets/GameMain/Textures/Gradient-Pencil.png" Length="7285" HashCode="670738212" />
+          <Asset Guid="8dca13d716b5b0748ae266a7e5c3b2b0" Name="Assets/GameMain/Textures/Sparkes/HotPink-Sparkle.png" Length="26676" HashCode="1205263170" />
+          <Asset Guid="917464591cf1003418f97ede8e0dd92c" Name="Assets/GameMain/Textures/CharactersParts/Monkey Parts.png" Length="15651" HashCode="1408242176" />
+          <Asset Guid="924d69343c38cf54cbfda1fd57e9068d" Name="Assets/GameMain/Textures/PaintRoller/TreeGreen-PaintRoller.png" Length="6708" HashCode="-746883053" />
+          <Asset Guid="926c5a982f3fb084bb4e335cc2881f9d" Name="Assets/GameMain/Textures/CharactersParts/Xiphias Parts.png" Length="11958" HashCode="-882005951" />
+          <Asset Guid="95d009c1fa7f1544bb2592c77be57280" Name="Assets/GameMain/Textures/PaintingCans/Red-PaintingCan.png" Length="11458" HashCode="451049579" />
+          <Asset Guid="9880209ff9727bb4aaca0aaa1a780443" Name="Assets/GameMain/Textures/Stuff/Feet.png" Length="2349" HashCode="1398653874" />
+          <Asset Guid="9a2e02bc22d6f2a459568c9572722032" Name="Assets/GameMain/Textures/Pencils/Yellow-Pencil.png" Length="3899" HashCode="-1088670609" />
+          <Asset Guid="9fe4755a2431b6a4dad02b0b4b63053e" Name="Assets/GameMain/Textures/blured.png" Length="18381" HashCode="1362733377" />
+          <Asset Guid="9ff4189c9ac9b8740906472b29750d52" Name="Assets/GameMain/Textures/Stuff/Cloud.png" Length="1779" HashCode="-234873849" />
+          <Asset Guid="a0688fb50c4957946818d7f852db7935" Name="Assets/GameMain/Textures/PaintRoller/Purple-PaintRoller.png" Length="7025" HashCode="-812736476" />
+          <Asset Guid="a1ad72f7f838fe543b1ed7c9eec94011" Name="Assets/GameMain/Textures/PointerEnabled.png" Length="10590" HashCode="-642516867" />
+          <Asset Guid="a475d62021a73a84289d367b12f6ed17" Name="Assets/GameMain/Textures/Stuff/Butterfly.png" Length="4736" HashCode="-1375042277" />
+          <Asset Guid="a6522d7314d86444e9ceeb105fb6033c" Name="Assets/GameMain/Textures/Crayons/Gray-Crayon.png" Length="4386" HashCode="-1583880155" />
+          <Asset Guid="a69ab41b6fd139a4790f513774671cd7" Name="Assets/GameMain/Textures/BackArrow.png" Length="12118" HashCode="-969305255" />
+          <Asset Guid="a702329b4f7308649b4fa8a1baf6435f" Name="Assets/GameMain/Textures/Trash.png" Length="6592" HashCode="1463957326" />
+          <Asset Guid="a9ca311aac812ea4db047cc617cfa898" Name="Assets/GameMain/Textures/Characters/Koala.png" Length="42504" HashCode="-80823468" />
+          <Asset Guid="a9f52c9404885ac41a27bdaf075f48db" Name="Assets/GameMain/Textures/Stuff/Hand.png" Length="2399" HashCode="779189889" />
+          <Asset Guid="aa5f9e90d81384646bb606a243b3781a" Name="Assets/GameMain/Textures/CurvedArrow.png" Length="3019" HashCode="1991905739" />
+          <Asset Guid="ace3983bdd9c63945b585bf57181fcb1" Name="Assets/GameMain/Textures/RightArrow.png" Length="3810" HashCode="1408899096" />
+          <Asset Guid="b1f0496da531fb242a3df67a39fa26c5" Name="Assets/GameMain/Textures/Sparkes/Pink-Sparkle.png" Length="26222" HashCode="861933730" />
+          <Asset Guid="b2de54c5de7f2994abea2c2b218b13e9" Name="Assets/GameMain/Textures/Sparkes/Orange-Sparkle.png" Length="26987" HashCode="-151669436" />
+          <Asset Guid="b4367f51a9fa2c64a9cd7ef4afb3e8f2" Name="Assets/GameMain/Textures/Stuff/Face.png" Length="2881" HashCode="-2087539175" />
+          <Asset Guid="b5559c84e1674734d97ec7c84adb7d66" Name="Assets/GameMain/Textures/Sparkes/LightBrown-Sparkle.png" Length="27625" HashCode="-1970684213" />
+          <Asset Guid="b63a75a4e747fe54db860c5b70c08ddc" Name="Assets/GameMain/Textures/Brushes/LightBrown-WaterBrush.png" Length="4008" HashCode="-1538034803" />
+          <Asset Guid="b6fe7459aef6b634a8f4a875258d27b2" Name="Assets/GameMain/Textures/Pencils/Cyan-Pencil.png" Length="3790" HashCode="-457824066" />
+          <Asset Guid="b89e0e37b3cbd964b89d062b2e0cbec2" Name="Assets/GameMain/Textures/PaintingCans/Yellow-PaintingCan.png" Length="12321" HashCode="-2027844622" />
+          <Asset Guid="ba5503bfc28e16a44ab811337e758ab5" Name="Assets/GameMain/Textures/Sparkes/NavyBlue-Sparkle.png" Length="27975" HashCode="-565088538" />
+          <Asset Guid="badc114e965896e489e1e71a80d60fcc" Name="Assets/GameMain/Textures/PaintRoller/NavyBlue-PaintRoller.png" Length="7046" HashCode="-1286062935" />
+          <Asset Guid="bc2b5037246e41e48b686c650ca758e2" Name="Assets/GameMain/Textures/Characters/Bear.png" Length="39134" HashCode="-1402521566" />
+          <Asset Guid="bc3753ae8dc0fb549b6a111591449c1c" Name="Assets/GameMain/Textures/Stamps/Red-Stamp.png" Length="11203" HashCode="-864016013" />
+          <Asset Guid="bca7347067f009946abf9ee75d29f973" Name="Assets/GameMain/Textures/CharactersParts/UniCorn Parts.png" Length="26389" HashCode="1947264136" />
+          <Asset Guid="be09aeac1d4f8dd4b8945ae23469c4b0" Name="Assets/GameMain/Textures/PaintingCans/Black-PaintingCan.png" Length="11193" HashCode="842402329" />
+          <Asset Guid="bea1a294d7498ab479310bd52b14a599" Name="Assets/GameMain/Textures/Sparkes/TreeGreen-Sparkle.png" Length="27295" HashCode="-1590783380" />
+          <Asset Guid="c034ef03f6fbdc84bb6e34f8c82b8415" Name="Assets/GameMain/Textures/CharactersParts/Cat Parts.png" Length="20873" HashCode="1409367432" />
+          <Asset Guid="c5381c13faebef544a0f3a97eb027e2c" Name="Assets/GameMain/Textures/Crayons/TreeGreen-Crayon.png" Length="4758" HashCode="-2097961976" />
+          <Asset Guid="c6594a15a190d1c4f992ac38c16eba94" Name="Assets/GameMain/Textures/Brushes/Orange-WaterBrush.png" Length="4004" HashCode="1450468344" />
+          <Asset Guid="c6ede35211ef14d4aa9966a46b0e89db" Name="Assets/GameMain/Textures/Paints/Orange-Paint.png" Length="6335" HashCode="1743908400" />
+          <Asset Guid="c95c2e91f26496847b68047447c67bc1" Name="Assets/GameMain/Textures/CrayonTexture.png" Length="28859" HashCode="-805812204" />
+          <Asset Guid="cb5c0b47c9e6a804bb08ca796cd88130" Name="Assets/GameMain/Textures/Pencils/AppleGreen-Pencil.png" Length="3788" HashCode="-976536569" />
+          <Asset Guid="cb83b7da12762104cba4079f93d03e7d" Name="Assets/GameMain/Textures/Brushes/Red-WaterBrush.png..png" Length="4215" HashCode="-1427370365" />
+          <Asset Guid="cb8f664deba4e3141a05eea1ed9e649c" Name="Assets/GameMain/Textures/Hand.png" Length="4100" HashCode="-143868087" />
+          <Asset Guid="cccab85fcf39cd44ba89122fa2191f03" Name="Assets/GameMain/Textures/CharactersParts/Elephanet Parts.png" Length="10196" HashCode="515718710" />
+          <Asset Guid="cd5e36ff4e9436846987d0be34cbe269" Name="Assets/GameMain/Textures/Stuff/Balloon.png" Length="1980" HashCode="-669226113" />
+          <Asset Guid="d02d1ec62f4faff42bc88842df4e8522" Name="Assets/GameMain/Textures/Stamps/Purple-Stamp.png" Length="3748" HashCode="1955971682" />
+          <Asset Guid="d182ee82a0e63b6489c3ba6906296a53" Name="Assets/GameMain/Textures/Stuff/Heart.png" Length="3063" HashCode="1015514068" />
+          <Asset Guid="d52dc93dee21b954c8d276d64d7ac6f6" Name="Assets/GameMain/Textures/Stamps/Pink-Stamp.png" Length="4378" HashCode="-206822753" />
+          <Asset Guid="d53bd7b746008a241af9001c4f69fe1a" Name="Assets/GameMain/Textures/Pencils/Purple-Pencil.png" Length="3761" HashCode="105618663" />
+          <Asset Guid="d578f2802b0dd0d4fb0957aa80653429" Name="Assets/GameMain/Textures/Characters/Dolphin.png" Length="23949" HashCode="700306423" />
+          <Asset Guid="d78185c82ea226142922de403db2f7c3" Name="Assets/GameMain/Textures/Pencils/LightBrown-Pencil.png" Length="3800" HashCode="1266590594" />
+          <Asset Guid="d7fce84ba1363e5439e4360d94e62e10" Name="Assets/GameMain/Textures/Stamps/NavyBlue-Stamp.png" Length="3863" HashCode="-2095494948" />
+          <Asset Guid="da4bf206428557d498acc919163c099d" Name="Assets/GameMain/Textures/Stamps/Cyan-Stamp.png" Length="6983" HashCode="-1790464251" />
+          <Asset Guid="dac45ef36da839847b3d3c50a1ecf7d1" Name="Assets/GameMain/Textures/Characters/UniCorn.png" Length="47986" HashCode="1635067645" />
+          <Asset Guid="dc9a97131099f124990f8f690e4b59bd" Name="Assets/GameMain/Textures/Print.png" Length="23840" HashCode="-860654312" />
+          <Asset Guid="dcd2d906256ca094bbccdfbd5dbb3aab" Name="Assets/GameMain/Textures/PaintRoller/Pink-PaintRoller.png" Length="6306" HashCode="945600046" />
+          <Asset Guid="df148e2d6645049408982780dfcdbab6" Name="Assets/GameMain/Textures/Sparkes/Red-Sparkle.png" Length="29404" HashCode="809255172" />
+          <Asset Guid="dfaee79ee7d5b79419f01c210e9da719" Name="Assets/GameMain/Textures/Pencils/TreeGreen-Pencil.png" Length="3782" HashCode="-1806417437" />
+          <Asset Guid="e0588a75f2026744caa6804497caa25f" Name="Assets/GameMain/Textures/Paints/Red-Paint.png" Length="6324" HashCode="1764492112" />
+          <Asset Guid="e0d5b7f7eb0c89847b0e7af624a93ed1" Name="Assets/GameMain/Textures/Sparkes/Cyan-Sparkle.png" Length="27398" HashCode="1754109164" />
+          <Asset Guid="e2c8d32794e0f7346b1d4c0cdc3fe809" Name="Assets/GameMain/Textures/Stamps/HotPink-Stamp.png" Length="12207" HashCode="1594145666" />
+          <Asset Guid="e39b4f6d40b825944973675b95b8e6d0" Name="Assets/GameMain/Textures/Sparkes/Purple-Sparkle.png" Length="26765" HashCode="-1051563312" />
+          <Asset Guid="e405ee2e747c2a749bcabe335ef68a17" Name="Assets/GameMain/Textures/Brushes/Black-WaterBrush.png" Length="4004" HashCode="-1754927960" />
+          <Asset Guid="e62b4e78d00e0e243b83b562e2889df8" Name="Assets/GameMain/Textures/Paints/Gray-Paint.png" Length="6815" HashCode="-43266827" />
+          <Asset Guid="ee918e9a5a5b80a43b6c5e7830d3675b" Name="Assets/GameMain/Textures/Stuff/Car.png" Length="2752" HashCode="595312506" />
+          <Asset Guid="f24aad71eecdc5f4393f7527b859fd2c" Name="Assets/GameMain/Textures/CharactersParts/Dolphin Parts.png" Length="11917" HashCode="-457653937" />
+          <Asset Guid="f2839483684e8fa4cbbaeaed75fa37ab" Name="Assets/GameMain/Textures/CharactersParts/Bear Parts.png" Length="35050" HashCode="-1385898629" />
+          <Asset Guid="f4b2d842176d2374e8e3af4e15a0a709" Name="Assets/GameMain/Textures/PaintingCans/Brown-PaintingCan.png" Length="11118" HashCode="1241465348" />
+          <Asset Guid="f5f9297e7ae977f48a500d1aa48bbd9a" Name="Assets/GameMain/Textures/Brushes/Purple-WaterBrush.png" Length="3920" HashCode="1435204945" />
+          <Asset Guid="f673bfa7d652ec14e9f9063e8ea10e13" Name="Assets/GameMain/Textures/PaintRoller/Orange-PaintRoller.png" Length="5826" HashCode="-2092049413" />
+          <Asset Guid="f6a3fa52e0229cb4695249404f39e762" Name="Assets/GameMain/Textures/PaintRoller/Cyan-PaintRoller.png" Length="7974" HashCode="700820982" />
+          <Asset Guid="f997aa28730881347868618940aad720" Name="Assets/GameMain/Textures/Sparkes/Brown-Sparkle.png" Length="28541" HashCode="2093431560" />
+          <Asset Guid="fa994cd8cf97a5040a5aa98638d4214d" Name="Assets/GameMain/Textures/SelectPicture.png" Length="53457" HashCode="1264529089" />
+          <Asset Guid="fac5e64b341aa1d43990e3d05ae2eb8d" Name="Assets/GameMain/Textures/Stamps/TreeGreen-Stamp.png" Length="6144" HashCode="-1704831223" />
+          <Asset Guid="fb65def118c051e4f9bd8fa8e5032bc1" Name="Assets/GameMain/Textures/PaintRoller/Gray-PaintRoller.png" Length="6736" HashCode="1649453350" />
+          <Asset Guid="fcca1314a0846704d81a322e1a32e4cf" Name="Assets/GameMain/Textures/Pencils/Red-Pencil.png" Length="4096" HashCode="1739742741" />
+          <Asset Guid="fcec7bb2173c67d428abedcb07c364be" Name="Assets/GameMain/Textures/PaintRoller/Brown-PaintRoller.png" Length="7334" HashCode="21707223" />
+          <Asset Guid="ff5182f5bbb10df45bafd36e263e0353" Name="Assets/GameMain/Textures/Crayons/Pink-Crayon.png" Length="4280" HashCode="1423421460" />
+        </Assets>
+        <Codes>
+          <Windows Length="2406626" HashCode="1197770275" CompressedLength="1961716" CompressedHashCode="-1814967161" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UIForms" Extension="dat" FileSystem="UI" LoadType="0" Packed="True">
+        <Assets Count="153">
+          <Asset Guid="00900e8aad06da84187bcfc67a940ada" Name="Assets/GameMain/UI/UIForms/Pencils/Orange-Pencil.prefab" Length="16564" HashCode="141578883">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Orange-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="00e72b1dc5abe714fb3ccb1646fc3c25" Name="Assets/GameMain/UI/UIForms/PaintLine.prefab" Length="8780" HashCode="-1136452786" />
+          <Asset Guid="017adb1c35fc6ed4e9143c8525146853" Name="Assets/GameMain/UI/UIForms/Crayons/Brown-Crayon.prefab" Length="16556" HashCode="-1799452537">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Brown-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="03095c548cc7a4f4d8dbadf070f05376" Name="Assets/GameMain/UI/UIForms/Stamps/Brown-Stamp.prefab" Length="16556" HashCode="-838015473">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/Brown-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="047d8a1861e184d4ba32ee10295fd755" Name="Assets/GameMain/UI/UIForms/Paints/Cyan-Paint.prefab" Length="16556" HashCode="1316295662">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Cyan-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="049c9a11783f1aa43a78c9bdc5669777" Name="Assets/GameMain/UI/UIForms/PaintRoller/AppleGreen-PaintRoller.prefab" Length="16572" HashCode="-1154834227">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/AppleTree-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="052b3fc2a69cc7949be35fda68f2415e" Name="Assets/GameMain/UI/UIForms/Characters/Dolphin.prefab" Length="24404" HashCode="-702305188">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Dolphin.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Dolphin Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="0a4792e755a90e947ab25892f3a8f559" Name="Assets/GameMain/UI/UIForms/PaintingCans/LightBrown-PaintingCan.prefab" Length="16572" HashCode="-479669175">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/LightBrown-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="0bb9317be65639648ba31d33cff9cbe0" Name="Assets/GameMain/UI/UIForms/WaterBrushes/Cyan-WaterBrush.prefab" Length="16564" HashCode="-1872266058">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Cyan-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="1270c0b887939a240a86371a88374163" Name="Assets/GameMain/UI/UIForms/Paints/Brown-Paint.prefab" Length="16556" HashCode="-1408304041">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Brown-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="12fe3d12b2228824cb67b1d3b8b8c540" Name="Assets/GameMain/UI/UIForms/Crayons/Cyan-Crayon.prefab" Length="16556" HashCode="1715179656">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Cyan-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="14d5cef5bdadd3c41be833f123824252" Name="Assets/GameMain/UI/UIForms/Sparkles/NavyBlue-Sparkle.prefab" Length="16724" HashCode="1726703122">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/NavyBlue-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="1599ff01cdc7b6a4088c3445c3d16010" Name="Assets/GameMain/UI/UIForms/WaterBrushes/HotPink-WaterBrush.prefab" Length="16564" HashCode="1515771536">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/HotPink-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="172afdd93d7a2864281154886590343f" Name="Assets/GameMain/UI/UIForms/WaterBrushes/NavyBlue-WaterBrush.prefab" Length="16564" HashCode="-1681729533">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/NavyBlue-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="17e2c6f661eb9ea4b8f9c3ff7d348325" Name="Assets/GameMain/UI/UIForms/Sparkles/Pink-Sparkle.prefab" Length="16716" HashCode="-445409906">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/Pink-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="1e187b9a69b3da5408daa6271fad6623" Name="Assets/GameMain/UI/UIForms/Sparkles/Cyan-Sparkle.prefab" Length="16716" HashCode="-106728830">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/Cyan-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="2459b1ccdc71d5a4ebf201a4416e5dd2" Name="Assets/GameMain/UI/UIForms/Pencils/Gray-Pencil.prefab" Length="16556" HashCode="864633728">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Gray-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="24bd41343c27afc4ebdfe9a4df7acfbe" Name="Assets/GameMain/UI/UIForms/TrashConfirmDialog.prefab" Length="27252" HashCode="538621018">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Button.controller" />
+              <DependencyAsset Name="Assets/GameMain/Animator/ConfirmDialog.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Rect.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="25107da508e99d743bdc2c672898deaf" Name="Assets/GameMain/UI/UIForms/Line.prefab" Length="10772" HashCode="-1667570850">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintLine.prefab" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="2656ff4c1de7e8a4cbaa67272a021c04" Name="Assets/GameMain/UI/UIForms/Pencils/AppleGreen-Pencil.prefab" Length="16708" HashCode="-685531048">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/AppleGreen-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="27784727c1682474099be8b6a158ff34" Name="Assets/GameMain/UI/UIForms/WaterBrushes/Red-WaterBrush.prefab" Length="16564" HashCode="1647879484">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Red-WaterBrush.png..png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="2849a17cee3a5a94eb3782f4003d63ed" Name="Assets/GameMain/UI/UIForms/Sparkles/Orange-Sparkle.prefab" Length="16724" HashCode="-1948152895">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/Orange-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="29b6f855ef8dbde4fb3d594f227dc377" Name="Assets/GameMain/UI/UIForms/Paints/Gray-Paint.prefab" Length="16556" HashCode="-454776985">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Gray-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="2bb465a16f45b324f97bc090dd53c0ae" Name="Assets/GameMain/UI/UIForms/Paints/Black-Paint.prefab" Length="16556" HashCode="-1163759767">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Black-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="2d0e3d6feeacd6946b30e836f75175a8" Name="Assets/GameMain/UI/UIForms/Characters/Cat.prefab" Length="25844" HashCode="-57485503">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Cat.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Cat Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="2dea6324b8e860e419477ff6e4a3c854" Name="Assets/GameMain/UI/UIForms/Stamps/Cyan-Stamp.prefab" Length="16556" HashCode="1681221680">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/Cyan-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="2fee4870d78bf26439f91e3642fda381" Name="Assets/GameMain/UI/UIForms/WaterBrushes/Pink-WaterBrush.prefab" Length="16564" HashCode="1516543615">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Pink-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="327a529f65b0ea64f9afeeb91e582ee2" Name="Assets/GameMain/UI/UIForms/PaintRoller/Purple-PaintRoller.prefab" Length="16564" HashCode="406507839">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Purple-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="3795ce93d3552e74983fe7a29c7a9249" Name="Assets/GameMain/UI/UIForms/Stamps/Pink-Stamp.prefab" Length="16556" HashCode="1355973587">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/Pink-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="39268b84f1e375c4c89868452035b5c7" Name="Assets/GameMain/UI/UIForms/Tools/PaintingCanTool.prefab" Length="16380" HashCode="1739226868">
+            <DependencyAssets Count="18">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Normal.mat" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Circle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/TreeGree-PaintingCan.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/AppleGreen-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Black-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Brown-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Cyan-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Gray-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/HotPink-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/LightBrown-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/NavyBlue-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Orange-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Pink-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Purple-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Red-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/TreeGreen-PaintingCan.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintingCans/Yellow-PaintingCan.prefab" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="39aa4c35c3178f242b35cd972b061764" Name="Assets/GameMain/UI/UIForms/PaintingCans/Pink-PaintingCan.prefab" Length="16564" HashCode="-1892121793">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/Pink-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="3b8aa2e6a91a79f41b91800debfa7e7c" Name="Assets/GameMain/UI/UIForms/Paints/NavyBlue-Paint.prefab" Length="16564" HashCode="-1130075017">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/NavyBlue-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="3c97bced8d31f4e49b8b8cabe9d215b2" Name="Assets/GameMain/UI/UIForms/Crayons/Pink-Crayon.prefab" Length="16556" HashCode="777746007">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Pink-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="3c9b2ff832a29e24784e7a944f695235" Name="Assets/GameMain/UI/UIForms/Crayons/Purple-Crayon.prefab" Length="16564" HashCode="1224515592">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Purple-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="3ebaa2e40b117314598866fee9ea4fee" Name="Assets/GameMain/UI/UIForms/Paints/LightBrown-Paint.prefab" Length="16564" HashCode="359263704">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/LightBrown-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="3f8b100427b94b74ebf78fd4ae457f30" Name="Assets/GameMain/UI/UIForms/Crayons/Gray-Crayon.prefab" Length="16556" HashCode="-236274127">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Gray-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="409b0034d253b3040aa1a886325ec9e7" Name="Assets/GameMain/UI/UIForms/WaterBrushes/Orange-WaterBrush.prefab" Length="16564" HashCode="859471980">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Orange-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="42a2296bdf4040e4696e0668514f458c" Name="Assets/GameMain/UI/UIForms/PaintRoller/Black-PaintRoller.prefab" Length="16564" HashCode="651822617">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Black-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="467bfcedb5602c34abedc1b4b11528e6" Name="Assets/GameMain/UI/UIForms/Tools/EraserTool.prefab" Length="16828" HashCode="-1537520138">
+            <DependencyAssets Count="4">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Normal.mat" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Circle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Eraser.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="4745d4d0348d5e3488fc85d50c3dfacd" Name="Assets/GameMain/UI/UIForms/Tools/PencilTool.prefab" Length="16336" HashCode="454673537">
+            <DependencyAssets Count="17">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Normal.mat" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Brown-Pencil.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/AppleGreen-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Black-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Brown-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Cyan-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Gray-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/HotPink-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/LightBrown-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/NavyBlue-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Orange-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Pink-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Purple-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Red-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/TreeGreen-Pencil.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Pencils/Yellow-Pencil.prefab" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="488f75479a529654b823df5f397e4a01" Name="Assets/GameMain/UI/UIForms/Stamps/Purple-Stamp.prefab" Length="16556" HashCode="2117426469">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/Purple-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="496712bf17615ee4eaa259c21e41b48f" Name="Assets/GameMain/UI/UIForms/PaintingCans/Brown-PaintingCan.prefab" Length="16564" HashCode="826004131">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/Brown-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="497b486cadb39a64ca1005532cb8193c" Name="Assets/GameMain/UI/UIForms/ShapesManager.prefab" Length="5276" HashCode="-1059634739">
+            <DependencyAssets Count="18">
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Bear.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Cat.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Dinasour.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Dolphin.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Elephanet.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Fox.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/FreeArea.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Hen.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/JellyFish.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Koala.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Lion.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Monkey.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Panda.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Rabbit.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/UniCorn.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Xiphias.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Yak.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Characters/Zebra.prefab" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="4a440d4dc849ea14c81003325c7e6390" Name="Assets/GameMain/UI/UIForms/Characters/Hen.prefab" Length="27188" HashCode="318120502">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Hen.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Hen Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="4abbb43f540a29b48b3eb072fa6f6fe4" Name="Assets/GameMain/UI/UIForms/Crayons/AppleGreen-Crayon.prefab" Length="16564" HashCode="253055287">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/AppleGreen-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="4d4347f84a085f441a4ad905127d7e2c" Name="Assets/GameMain/UI/UIForms/Characters/Panda.prefab" Length="34468" HashCode="-1702879185">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Panda.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Panda Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="507fab33361970e43be73b79f693a25b" Name="Assets/GameMain/UI/UIForms/PaintingCans/Purple-PaintingCan.prefab" Length="16564" HashCode="-1834140721">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/Purple-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="5289673cbfacb404cb9782cba6aa5721" Name="Assets/GameMain/UI/UIForms/Stamps/TreeGreen-Stamp.prefab" Length="16564" HashCode="897311633">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/TreeGreen-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="532a79ef351ec4349b8dbb42af7fcccd" Name="Assets/GameMain/UI/UIForms/Pencils/Black-Pencil.prefab" Length="16556" HashCode="1010253092">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Black-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="53acf5ff1190d9c42b53c1b524263f2c" Name="Assets/GameMain/UI/UIForms/Characters/Xiphias.prefab" Length="24692" HashCode="269865818">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Xiphias.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Xiphias Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="555f079e73ee21d4f8f1352c0d4e2367" Name="Assets/GameMain/UI/UIForms/PaintingCans/Yellow-PaintingCan.prefab" Length="16564" HashCode="-1642667189">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/Yellow-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="57a4ddee87208114185f6fff6f98ff35" Name="Assets/GameMain/UI/UIForms/Shape.prefab" Length="13816" HashCode="-1979615004">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Button.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stuff/Empty.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="594254cd4b346324c9e6e0dce4849f6e" Name="Assets/GameMain/UI/UIForms/Characters/Elephanet.prefab" Length="24020" HashCode="-1475814991">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Elephanet.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Elephanet Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="5d0795f135ba6f14b867c27342654ec6" Name="Assets/GameMain/UI/UIForms/Tools/HandTool.prefab" Length="15868" HashCode="2147150526">
+            <DependencyAssets Count="4">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Normal.mat" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Circle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Hand.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="5feb176d601056240bda919c2e4a619d" Name="Assets/GameMain/UI/UIForms/WaterBrushes/AppleGreen-WaterBrush.prefab" Length="16572" HashCode="-1206129068">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/AppleGreen-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="604eb6c5b34b1844484b4211a3e01b16" Name="Assets/GameMain/UI/UIForms/Pointer.prefab" Length="13532" HashCode="792444433">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/PointerDisabled.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="608177d9672302e4ba44ef84bb043ba4" Name="Assets/GameMain/UI/UIForms/WaterBrushes/Black-WaterBrush.prefab" Length="16564" HashCode="-1249134004">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Black-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="61e93e3240bec2a42a5fd11b0d462b0f" Name="Assets/GameMain/UI/UIForms/Sparkles/HotPink-Sparkle.prefab" Length="16724" HashCode="-1851931345">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/HotPink-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="620843dc72a392c468eda3f2f4a719d3" Name="Assets/GameMain/UI/UIForms/Pencils/Purple-Pencil.prefab" Length="16564" HashCode="130064838">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Purple-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="62e8c4d593956e345856f7797cec1cc0" Name="Assets/GameMain/UI/UIForms/Paints/Yellow-Paint.prefab" Length="16556" HashCode="-832793245">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Yellow-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="65dd59f166c13b8458b078ce8e815e91" Name="Assets/GameMain/UI/UIForms/WaterBrushes/LightBrown-WaterBrush.prefab" Length="16572" HashCode="1491393313">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/LightBrown-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="67cd5ed5a5d75f9479cfa5d731f2606f" Name="Assets/GameMain/UI/UIForms/Paints/Orange-Paint.prefab" Length="16556" HashCode="-151228857">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Orange-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="68e3ff0bc636bfc498c63a752278ff04" Name="Assets/GameMain/UI/UIForms/Crayons/LightBrown-Crayon.prefab" Length="16564" HashCode="428672869">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/LightBrown-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="6b02913e2d4ee9747a926d3171138a45" Name="Assets/GameMain/UI/UIForms/Crayons/Orange-Crayon.prefab" Length="16564" HashCode="-754680810">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Orange-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="6ba9afe20a2a3714c88368779ade9b64" Name="Assets/GameMain/UI/UIForms/Sparkles/Yellow-Sparkle.prefab" Length="16724" HashCode="1921861236">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/Yellow-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="6ea1bd82be8138846a9e292e899a3054" Name="Assets/GameMain/UI/UIForms/PaintRoller/Brown-PaintRoller.prefab" Length="16564" HashCode="-1219432571">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Brown-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="71798084d45287543ae93e1f99f64f8e" Name="Assets/GameMain/UI/UIForms/PaintingCans/Black-PaintingCan.prefab" Length="16564" HashCode="605346270">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/Black-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="75a0bb4c61325c74384caef7e5e1d6ac" Name="Assets/GameMain/UI/UIForms/PaintRoller/Yellow-PaintRoller.prefab" Length="16564" HashCode="2093309016">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Yellow-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="77d96d67757e2f047b5461bd7b62e214" Name="Assets/GameMain/UI/UIForms/Characters/Rabbit.prefab" Length="27844" HashCode="-1403845350">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Rabbit.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Rabbit Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="78d7ca43460a2514d94079301dd758bc" Name="Assets/GameMain/UI/UIForms/Crayons/Red-Crayon.prefab" Length="16556" HashCode="285614482">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Red-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="7a5b558a0c9a7914583e93762dac50f6" Name="Assets/GameMain/UI/UIForms/Stamps/Red-Stamp.prefab" Length="16556" HashCode="-1037788059">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/Red-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="7c330f1e840eea14e82e555bf2c4238c" Name="Assets/GameMain/UI/UIForms/Crayons/TreeGreen-Crayon.prefab" Length="16564" HashCode="937014384">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/TreeGreen-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="82fc576770fda354d99f3adc63f3bfab" Name="Assets/GameMain/UI/UIForms/WaterBrushes/Yellow-WaterBrush.prefab" Length="16564" HashCode="774696516">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Yellow-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="8311b17a6d71ae64e93b84aa40df151b" Name="Assets/GameMain/UI/UIForms/PaintingCans/Gray-PaintingCan.prefab" Length="16564" HashCode="633077510">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/Gray-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="83f06e57b1d569d49b66524a04fc48c6" Name="Assets/GameMain/UI/UIForms/PaintingCans/HotPink-PaintingCan.prefab" Length="16564" HashCode="-13220164">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/HotPink-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="84959bba10f5e634599219731fd2aa14" Name="Assets/GameMain/UI/UIForms/Sparkles/AppleGreen-Sparkle.prefab" Length="16724" HashCode="1929068420">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/AppleGreen-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="84f4a3755d0c7a74d843304ff7cb2ac7" Name="Assets/GameMain/UI/UIForms/PaintRoller/Gray-PaintRoller.prefab" Length="16564" HashCode="498217125">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Gray-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="87050cf6c8405c64e9350292c1a531f9" Name="Assets/GameMain/UI/UIForms/Paints/Purple-Paint.prefab" Length="16556" HashCode="-1154359239">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Purple-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="87dab2fe5a00734439a95ab2c1d960ca" Name="Assets/GameMain/UI/UIForms/Characters/Fox.prefab" Length="29492" HashCode="-1222139359">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Fox.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Fox Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="88b416e43045b1e4c99b01a145cc94b5" Name="Assets/GameMain/UI/UIForms/WaterBrushes/Gray-WaterBrush.prefab" Length="16564" HashCode="1731297347">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Gray-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="891a8ac30b675384fb7b8110795727ba" Name="Assets/GameMain/UI/UIForms/Crayons/NavyBlue-Crayon.prefab" Length="16564" HashCode="-1480936470">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/NavyBlue-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="8a5b8c75314bca34ea9c7de7eda181ab" Name="Assets/GameMain/UI/UIForms/Tools/PaintTool.prefab" Length="16348" HashCode="962356655">
+            <DependencyAssets Count="18">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Normal.mat" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Circle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Pink-Paint.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/AppleGreen-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Black-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Brown-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Cyan-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Gray-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/HotPink-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/LightBrown-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/NavyBlue-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Orange-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Pink-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Purple-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Red-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/TreeGreen-Paint.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Paints/Yellow-Paint.prefab" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="8c38ed3d41d9aa648a9170218d65ba03" Name="Assets/GameMain/UI/UIForms/Stamps/AppleGreen-Stamp.prefab" Length="16564" HashCode="-518999575">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/AppleGreen-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="8cf0d384d68fca344a9e5e15aa86e5bb" Name="Assets/GameMain/UI/UIForms/Stamps/Yellow-Stamp.prefab" Length="16556" HashCode="322285030">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/Yellow-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="8e54eccd7289ec14a9887af0f7c0587d" Name="Assets/GameMain/UI/UIForms/PaintingCans/AppleGreen-PaintingCan.prefab" Length="16572" HashCode="-814730258">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/AppleGreen-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="8eaa7e11b77fbe44385f420c5793667a" Name="Assets/GameMain/UI/UIForms/Paints/HotPink-Paint.prefab" Length="16564" HashCode="-1452350313">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/HotPink-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="8f0d6d70752e16a468c2e574d4d18df9" Name="Assets/GameMain/UI/UIForms/Characters/JellyFish.prefab" Length="26104" HashCode="1228573357">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/JellyFish.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/JellyFish Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="90ec8da736d203342b582532e6eb5e75" Name="Assets/GameMain/UI/UIForms/Tools/StufflTool.prefab" Length="16200" HashCode="1730893508">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stuff/Bird.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="948e5df39ff39164e9649a1a7ee66195" Name="Assets/GameMain/UI/UIForms/Paints/Pink-Paint.prefab" Length="16556" HashCode="-158900568">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Pink-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="9be29407725b773468e55afaec745d06" Name="Assets/GameMain/UI/UIForms/Tools/CrayonlTool.prefab" Length="16264" HashCode="-2056561909">
+            <DependencyAssets Count="17">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Crayon.mat" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Orange-Crayon.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/AppleGreen-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Black-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Brown-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Cyan-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Gray-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/HotPink-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/LightBrown-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/NavyBlue-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Orange-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Pink-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Purple-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Red-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/TreeGreen-Crayon.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Crayons/Yellow-Crayon.prefab" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="9f6b122b4cbf9964284dc3a2c50cc76f" Name="Assets/GameMain/UI/UIForms/StampPrefab.prefab" Length="5916" HashCode="1141851012">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/Cyan-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="a1e7bba74cd2459438ca9d7f8eaacef7" Name="Assets/GameMain/UI/UIForms/PaintRoller/NavyBlue-PaintRoller.prefab" Length="16564" HashCode="1069394014">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/NavyBlue-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="a2175ee24f0f4354ba01461e568b4a82" Name="Assets/GameMain/UI/UIForms/Characters/FreeArea.prefab" Length="13340" HashCode="1209666144">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/FreeDraw.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="a4430869ecda020468fc503b2cb5132b" Name="Assets/GameMain/UI/UIForms/PaintingCans/Orange-PaintingCan.prefab" Length="16564" HashCode="-332364623">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/Orange-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="a4afe897d430e044d8fffae1937be1dc" Name="Assets/GameMain/UI/UIForms/Sparkles/LightBrown-Sparkle.prefab" Length="16724" HashCode="-1174457780">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/LightBrown-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="a73a74fed6ceb4a439a56f36c465f0fc" Name="Assets/GameMain/UI/UIForms/WhiteArea.prefab" Length="7708" HashCode="1914545530">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/WhiteArea.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Box.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="a8a8b706e91243646810036357159b11" Name="Assets/GameMain/UI/UIForms/Pencils/Brown-Pencil.prefab" Length="16556" HashCode="506029942">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Brown-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="aae172ac53c2f9c408d61cdfc20b2b28" Name="Assets/GameMain/UI/UIForms/Tools/StampTool.prefab" Length="16348" HashCode="1936493774">
+            <DependencyAssets Count="18">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Normal.mat" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Circle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/AppleGreen-Stamp.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/AppleGreen-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Black-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Brown-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Cyan-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Gray-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/HotPink-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/LightBrown-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/NavyBlue-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Orange-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Pink-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Purple-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Red-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/TreeGreen-Stamp.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/Stamps/Yellow-Stamp.prefab" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ac94990c1c5c1c246ae892ddae40a4e3" Name="Assets/GameMain/UI/UIForms/Pencils/HotPink-Pencil.prefab" Length="16564" HashCode="-1668596881">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/HotPink-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ae22a67311214d442a6989d33cf4a82a" Name="Assets/GameMain/UI/UIForms/PaintRoller/TreeGreen-PaintRoller.prefab" Length="16572" HashCode="2090741674">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/TreeGreen-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ae8efb077272f124394f53051765ee93" Name="Assets/GameMain/UI/UIForms/Crayons/Black-Crayon.prefab" Length="16556" HashCode="1328682048">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Black-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="af5aa8de6901bb8469111b837b2248a9" Name="Assets/GameMain/UI/UIForms/PaintRoller/Pink-PaintRoller.prefab" Length="16564" HashCode="-1682870132">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Pink-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="b18e85725c6f1bd4187d6514f7423f2f" Name="Assets/GameMain/UI/UIForms/PaintingCans/TreeGreen-PaintingCan.prefab" Length="16572" HashCode="-821350762">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/TreeGree-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="b1fc30ce515c1f24ebb9d4c60728a911" Name="Assets/GameMain/UI/UIForms/WaterBrushes/Brown-WaterBrush.prefab" Length="16564" HashCode="-975766160">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Brown-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="b2784e65e2677f44186c2b2939790d67" Name="Assets/GameMain/UI/UIForms/Tools/WaterColorTool.prefab" Length="16348" HashCode="-1561593805">
+            <DependencyAssets Count="18">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Water.mat" />
+              <DependencyAsset Name="Assets/GameMain/Textures/blured.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Red-WaterBrush.png..png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/AppleGreen-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Black-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Brown-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Cyan-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Gray-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/HotPink-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/LightBrown-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/NavyBlue-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Orange-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Pink-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Purple-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Red-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/TreeGreen-WaterBrush.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/WaterBrushes/Yellow-WaterBrush.prefab" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="b36363c2e26fc57448237dd83c400408" Name="Assets/GameMain/UI/UIForms/Dot.prefab" Length="5908" HashCode="778624633">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/Circle.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="b50fb80b8b2b11940a66d1fc2991bbac" Name="Assets/GameMain/UI/UIForms/Stamps/Black-Stamp.prefab" Length="16556" HashCode="-485213911">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/Black-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="b5ddbc69c056ab643abf01b52e1ba812" Name="Assets/GameMain/UI/UIForms/Sparkles/Gray-Sparkle.prefab" Length="16716" HashCode="854857612">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/Gray-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="b9e31c3e318f75149bd2c8b77a611973" Name="Assets/GameMain/UI/UIForms/Cursor.prefab" Length="5756" HashCode="959531460">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/Cursor.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ba4ae60ba09bad64db67cf570069404c" Name="Assets/GameMain/UI/UIForms/Pencils/Cyan-Pencil.prefab" Length="16556" HashCode="113135282">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Cyan-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="bb52bf30f57e5c24ea4e57d9d765de04" Name="Assets/GameMain/UI/UIForms/Characters/Yak.prefab" Length="31740" HashCode="-1971708451">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Yak.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Yak Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="bb717364454a57341b1ff0a462a1ef24" Name="Assets/GameMain/UI/UIForms/PaintRoller/HotPink-PaintRoller.prefab" Length="16564" HashCode="-1849195011">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/HotPink-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="bbcc1fbdb065d50468a06cf281be5742" Name="Assets/GameMain/UI/UIForms/PaintingCans/Cyan-PaintingCan.prefab" Length="16564" HashCode="1660346244">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/Cyan-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="c02ba2369f1cb534b82a1e926ea10b56" Name="Assets/GameMain/UI/UIForms/Characters/Dinasour.prefab" Length="24412" HashCode="724458799">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Dinasour.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Dinasour Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="c14cac8a6ca20ae4ca0c2ae9b1701199" Name="Assets/GameMain/UI/UIForms/Sparkles/Purple-Sparkle.prefab" Length="16724" HashCode="2071451190">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/Purple-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="c2af6b1bea5811e42a1cf44502c57b86" Name="Assets/GameMain/UI/UIForms/PaintRoller/Orange-PaintRoller.prefab" Length="16564" HashCode="-889136820">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Orange-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="c3a073c64a3f56844872a2185ea16047" Name="Assets/GameMain/UI/UIForms/Stamps/HotPink-Stamp.prefab" Length="16564" HashCode="801608747">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/HotPink-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="c3b054aa8ba883c4abb9faf9a951b98e" Name="Assets/GameMain/UI/UIForms/AdsManager.prefab" Length="7480" HashCode="-1937770962" />
+          <Asset Guid="c603f4fa0c5a81349a154ce6cb0295d5" Name="Assets/GameMain/UI/UIForms/Paints/AppleGreen-Paint.prefab" Length="16564" HashCode="-1419581456">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/AppleTree-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="c6a152e616c679f4bad32a3ad5ba9078" Name="Assets/GameMain/UI/UIForms/Pencils/LightBrown-Pencil.prefab" Length="16564" HashCode="-1017859196">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/LightBrown-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="c6ccf8fd04a56ee4bb0e84cf95913439" Name="Assets/GameMain/UI/UIForms/WaterBrushes/Purple-WaterBrush.prefab" Length="16564" HashCode="854452157">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/Purple-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="cae319caecdbcb04c8af9dd45767df11" Name="Assets/GameMain/UI/UIForms/PaintingCans/Red-PaintingCan.prefab" Length="16564" HashCode="1779029072">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/Red-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ce39f04882570d94c9486e070feb7c5e" Name="Assets/GameMain/UI/UIForms/Characters/Monkey.prefab" Length="25084" HashCode="-357631579">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Monkey.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Monkey Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="d16661acdc2888842bc1c0c170118041" Name="Assets/GameMain/UI/UIForms/Sparkles/Red-Sparkle.prefab" Length="16716" HashCode="290262782">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/Red-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="d5bcfa00e8124934abc52ba0cddd61f7" Name="Assets/GameMain/UI/UIForms/Sparkles/Black-Sparkle.prefab" Length="16724" HashCode="-590334595">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/Black-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="d6de19d2944440547b07fcc1776a4e45" Name="Assets/GameMain/UI/UIForms/PaintRoller/Cyan-PaintRoller.prefab" Length="16564" HashCode="-1174860911">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Cyan-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="d71561792cfb2b14c8387b1fcfbbcdab" Name="Assets/GameMain/UI/UIForms/Pencils/NavyBlue-Pencil.prefab" Length="16564" HashCode="-904911519">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/NavyBlue-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="dacd65032bad7994f825f173420973cb" Name="Assets/GameMain/UI/UIForms/Pencils/Pink-Pencil.prefab" Length="16556" HashCode="-707805469">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Pink-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="dbdaa21fc5b3b6a47b97d63d9ff7f0da" Name="Assets/GameMain/UI/UIForms/AudioSources.prefab" Length="7524" HashCode="1175485032" />
+          <Asset Guid="dcd9e0d413aa7474fa97fcf4dbff7b22" Name="Assets/GameMain/UI/UIForms/Crayons/Yellow-Crayon.prefab" Length="16564" HashCode="651263353">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/Yellow-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="dd6b386aeb8d4fb4387ea55bc19a8345" Name="Assets/GameMain/UI/UIForms/PaintRoller/LightBrown-PaintRoller.prefab" Length="16572" HashCode="526781341">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/LightBrown-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="de8d43f7a120cfb46b1cf66c73bc2b2b" Name="Assets/GameMain/UI/UIForms/Sparkles/TreeGreen-Sparkle.prefab" Length="16724" HashCode="1912390374">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/TreeGreen-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="df0391138530a4348a87d1737dcf5bc0" Name="Assets/GameMain/UI/UIForms/Crayons/HotPink-Crayon.prefab" Length="16564" HashCode="-660331107">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Crayons/HotPink-Crayon.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="e13a0aad266976e47af672f3ad6a8a8c" Name="Assets/GameMain/UI/UIForms/Pencils/Red-Pencil.prefab" Length="16556" HashCode="-530773541">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Red-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="e3c62f35bf123274faeb819d50e3ba2a" Name="Assets/GameMain/UI/UIForms/Characters/Zebra.prefab" Length="27956" HashCode="890759230">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Zebra.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Zebra Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="e4ecc9c197b1e6b40aa7b59d3cb4cc02" Name="Assets/GameMain/UI/UIForms/Stamps/Gray-Stamp.prefab" Length="16556" HashCode="-623543916">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/Gray-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="e546a2a16dc06cb4bbe109378ea11220" Name="Assets/GameMain/UI/UIForms/Group.prefab" Length="6588" HashCode="-1714871536" />
+          <Asset Guid="e80b3093ad31199409d27cacfe8a02ee" Name="Assets/GameMain/UI/UIForms/Stamps/Orange-Stamp.prefab" Length="16556" HashCode="1475341351">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/Orange-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="e80c2a861657bd94f9ec25344f99591c" Name="Assets/GameMain/UI/UIForms/Pencils/TreeGreen-Pencil.prefab" Length="16564" HashCode="-1720404759">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/TreeGreen-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="e97d99e53bdcd7a48b6f86d9e8699466" Name="Assets/GameMain/UI/UIForms/PaintRoller/Red-PaintRoller.prefab" Length="16564" HashCode="-1658609561">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Red-PaintRoller.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ea46ea34bf59a8946ae99f9c302539f6" Name="Assets/GameMain/UI/UIForms/PaintingCans/NavyBlue-PaintingCan.prefab" Length="16564" HashCode="1029833102">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintingCans/NavyBlue-PaintingCan.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="eb58d97a358c0944b83f60822bb91b47" Name="Assets/GameMain/UI/UIForms/Paints/Red-Paint.prefab" Length="16556" HashCode="-1979237690">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/Red-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ebce67d0b71c04947835bd4f0a04aea3" Name="Assets/GameMain/UI/UIForms/Stamps/LightBrown-Stamp.prefab" Length="16564" HashCode="-1128339641">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/LightBrown-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ec095eee66ec0c54b914720e6bef2519" Name="Assets/GameMain/UI/UIForms/WaterBrushes/TreeGreen-WaterBrush.prefab" Length="16564" HashCode="1585378447">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Brushes/TreeGreen-WaterBrush.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ec62e58166488b648b713bcb3eec9fa4" Name="Assets/GameMain/UI/UIForms/Sparkles/Brown-Sparkle.prefab" Length="16724" HashCode="-293093556">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Sparkes/Brown-Sparkle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/SparkleTexture.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ee74479b0f8761d41b810069b8333d52" Name="Assets/GameMain/UI/UIForms/Stamps/NavyBlue-Stamp.prefab" Length="16564" HashCode="-151788691">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Stamps/NavyBlue-Stamp.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="f0bd093cf23361746bbadd0ba823d79a" Name="Assets/GameMain/UI/UIForms/Characters/Lion.prefab" Length="29044" HashCode="1412492734">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Lion.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Lion Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="f4b1a51e29834b345a327b0bb1bcd74b" Name="Assets/GameMain/UI/UIForms/Tools/PaintRollerTool.prefab" Length="16348" HashCode="631326899">
+            <DependencyAssets Count="18">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Normal.mat" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Circle.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/PaintRoller/Cyan-PaintRoller.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/AppleGreen-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Black-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Brown-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Cyan-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Gray-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/HotPink-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/LightBrown-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/NavyBlue-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Orange-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Pink-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Purple-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Red-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/TreeGreen-PaintRoller.prefab" />
+              <DependencyAsset Name="Assets/GameMain/UI/UIForms/PaintRoller/Yellow-PaintRoller.prefab" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="f5bb04ee567b1bf42a41630797d3b0fe" Name="Assets/GameMain/UI/UIForms/Paints/TreeGreen-Paint.prefab" Length="16564" HashCode="1523627009">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Paints/TreeGreen-Paint.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="fc6d9db01828e244b82859cdd2c13150" Name="Assets/GameMain/UI/UIForms/Pencils/Yellow-Pencil.prefab" Length="16564" HashCode="-52304130">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Scale.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/Pencils/Yellow-Pencil.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="fd03fc80d5162ad46ad402b8799a2c85" Name="Assets/GameMain/UI/UIForms/Characters/UniCorn.prefab" Length="29268" HashCode="1272028884">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/UniCorn.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/UniCorn Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="fdbeababaf5b03d49b74379f6ebdd706" Name="Assets/GameMain/UI/UIForms/Characters/Koala.prefab" Length="28228" HashCode="-1946267233">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Koala.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Koala Parts.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="fe0923031f30d6046bdb7b22e1a7d63c" Name="Assets/GameMain/UI/UIForms/Characters/Bear.prefab" Length="33132" HashCode="-1687615631">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/Characters/Bear.png" />
+              <DependencyAsset Name="Assets/GameMain/Textures/CharactersParts/Bear Parts.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="156733" HashCode="919100308" CompressedLength="136827" CompressedHashCode="95792883" />
+        </Codes>
+      </Resource>
+    </Resources>
+  </BuildReport>
+</UnityGameFramework>

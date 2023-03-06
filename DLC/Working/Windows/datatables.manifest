@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 775072316
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d9c7059a2d5a4c4da4da8af1ce58717b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/DataTables/Sound.bytes
+- Assets/GameMain/DataTables/UISound.txt
+- Assets/GameMain/DataTables/UISound.bytes
+- Assets/GameMain/DataTables/Scene.bytes
+- Assets/GameMain/DataTables/Sound.txt
+- Assets/GameMain/DataTables/Scene.txt
+Dependencies: []

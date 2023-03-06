@@ -1,0 +1,176 @@
+ManifestFileVersion: 0
+CRC: 3150180807
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4c3e1f9161c8128ac49f326aceaa0d74
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f854a76bb13866dc12076b12aa739d2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62eb56be823e2e84fb42806754d5e699, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c255b8b16af3bf7429981b1a0f0ef769, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cc9dd54426f8fd4ab255dc411b2b4f8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8c7a2cdc99a133c42bf7e68c949412fe, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 26ff894e302a6114a9e0bdff7a9f7552, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4bbe376d1f63a14fb74458391c19bd3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0700cc5551fc5a8438d53d64176b5dca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b86da7dbb11cfac488e88525ddb3badd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c223af1421c7cb64aa959cf166654ee0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: da16dc2570b11294cb9bf7a54d172f78, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: da1a46dabc816394ab13b5a8863867e5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2bf6a9e5810094747a5a7c2eb07ae524, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62069d088ffe64b4d9e80d00dd07604a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1425647240a60494ab32bd4d9875615a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9ebd2b84ca3cc754fb0dfb804613fb1a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a494c5a0feb866e4a9ba6acc8467332b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ff8098828303e6c4da9a40096a0c4504, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b4892af9055aae48ad2373ed31a79ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 64a017b6e070be747b25e737b96cf08a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e17b6ac323ba5ea4eac9691c37524b7e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f368f60769ce5b24db4de7df31aee680, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 81214caa35520934b98b576336f01569, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 22ed240bef7a1ba4a8459b7127e166be, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 56d78c8b909fd8047b2584a7c8ec6dde, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57d8ef07a2c3b1147b59c99213f3cb56, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 061efd77d4cb3d348935613e77efe0fa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a95460187de58454d809356b99b3e41e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7de442f22886b6e408690d912a2acb2d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 544b1fadb52a2de43b1a6675caaa6043, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7034632586a06e94b86901fe5cb7e6f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: da3df537e78527b4887fb9bd766a1662, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f6e2d10466c30d74c9b07268da2a0a58, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d6b7dc810918aad4f8683649e69b1923, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 258
+  Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Scenes/Game.unity
+- Assets/GameMain/Scenes/Album.unity
+Dependencies:
+- D:/UnityWork/FillColorOfGame/DLC/Working/Windows/animator
+- D:/UnityWork/FillColorOfGame/DLC/Working/Windows/fonts
+- D:/UnityWork/FillColorOfGame/DLC/Working/Windows/materials
+- D:/UnityWork/FillColorOfGame/DLC/Working/Windows/sounds
+- D:/UnityWork/FillColorOfGame/DLC/Working/Windows/textures
+- D:/UnityWork/FillColorOfGame/DLC/Working/Windows/ui/uiforms
