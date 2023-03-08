@@ -19,7 +19,6 @@ namespace StarForce
 
         public static int? PlayMusic(this SoundComponent soundComponent, int musicId, object userData = null)
         {
-            return null;
             soundComponent.StopMusic();
 
             IDataTable<DRMusic> dtMusic = GameEntry.DataTable.GetDataTable<DRMusic>();
