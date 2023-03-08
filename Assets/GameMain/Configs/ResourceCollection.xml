@@ -4,6 +4,7 @@
     <Resources>
       <Resource Name="Animation" LoadType="0" Packed="True" />
       <Resource Name="Animator" LoadType="0" Packed="True" />
+      <Resource Name="Configs" LoadType="0" Packed="True" />
       <Resource Name="DataTables" FileSystem="GameData" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Fonts" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Localization/Dictionaries" Variant="en-us" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
@@ -125,6 +126,7 @@
       <Asset Guid="41131383fc23ecb41b549b84dfff527d" ResourceName="Textures" />
       <Asset Guid="41a07f2948221454da4fdffe63b73074" ResourceName="Textures" />
       <Asset Guid="42a2296bdf4040e4696e0668514f458c" ResourceName="UI/UIForms" />
+      <Asset Guid="44c8db52241385c45bbb14a1718f17bf" ResourceName="Configs" />
       <Asset Guid="45d6d4226c8b7e740825b72686fdd5dd" ResourceName="Textures" />
       <Asset Guid="467bfcedb5602c34abedc1b4b11528e6" ResourceName="UI/UIForms" />
       <Asset Guid="4745d4d0348d5e3488fc85d50c3dfacd" ResourceName="UI/UIForms" />
@@ -203,6 +205,7 @@
       <Asset Guid="759c0e92da3f0fe4a9de5e569629a86c" ResourceName="Textures" />
       <Asset Guid="75a0bb4c61325c74384caef7e5e1d6ac" ResourceName="UI/UIForms" />
       <Asset Guid="75be6b5f9c6fef04f9c8fd7470c979f0" ResourceName="Textures" />
+      <Asset Guid="77cbb7c5404c10242ab59953e0746314" ResourceName="Fonts" />
       <Asset Guid="77d96d67757e2f047b5461bd7b62e214" ResourceName="UI/UIForms" />
       <Asset Guid="78d7ca43460a2514d94079301dd758bc" ResourceName="UI/UIForms" />
       <Asset Guid="78e79283f57cc4b4b8bcb633b4b771b2" ResourceName="Textures" />
@@ -213,6 +216,7 @@
       <Asset Guid="7c9f179a12777ad409ff5c13157a87f0" ResourceName="Textures" />
       <Asset Guid="7ec9410405ef1734c8872bcbddab9de7" ResourceName="Textures" />
       <Asset Guid="7efd2303231099c48a5a76faa8e0b212" ResourceName="Animation" />
+      <Asset Guid="7fd11dc5d29076d469d414dec2818f11" ResourceName="Configs" />
       <Asset Guid="82fc576770fda354d99f3adc63f3bfab" ResourceName="UI/UIForms" />
       <Asset Guid="8311b17a6d71ae64e93b84aa40df151b" ResourceName="UI/UIForms" />
       <Asset Guid="83f06e57b1d569d49b66524a04fc48c6" ResourceName="UI/UIForms" />
