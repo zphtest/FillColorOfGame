@@ -27,7 +27,7 @@ namespace StarForce
             "Scene",
             //"Sound",
             //"Thruster",
-            //"UIForm",
+            "UIForm",
             //"UISound",
             //"Weapon",
         };

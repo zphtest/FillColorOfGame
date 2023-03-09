@@ -4,6 +4,7 @@
     <Resources>
       <Resource Name="Animation" LoadType="0" Packed="True" />
       <Resource Name="Animator" LoadType="0" Packed="True" />
+      <Resource Name="Configs" LoadType="0" Packed="True" />
       <Resource Name="DataTables" FileSystem="GameData" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Fonts" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Localization/Dictionaries" Variant="en-us" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
@@ -105,6 +106,7 @@
       <Asset Guid="327a529f65b0ea64f9afeeb91e582ee2" ResourceName="UI/UIForms" />
       <Asset Guid="33f0a31201b909d4db28f0d905739125" ResourceName="Textures" />
       <Asset Guid="34a5fa11ac03c5c4abdab871f4debc37" ResourceName="Textures" />
+      <Asset Guid="352da872791696c48af3b21132e3e3c3" ResourceName="DataTables" />
       <Asset Guid="36faa44ab04c98448bc55ebdea847cc3" ResourceName="Textures" />
       <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" ResourceName="DataTables" />
       <Asset Guid="3795ce93d3552e74983fe7a29c7a9249" ResourceName="UI/UIForms" />
@@ -125,6 +127,7 @@
       <Asset Guid="41131383fc23ecb41b549b84dfff527d" ResourceName="Textures" />
       <Asset Guid="41a07f2948221454da4fdffe63b73074" ResourceName="Textures" />
       <Asset Guid="42a2296bdf4040e4696e0668514f458c" ResourceName="UI/UIForms" />
+      <Asset Guid="44c8db52241385c45bbb14a1718f17bf" ResourceName="Configs" />
       <Asset Guid="45d6d4226c8b7e740825b72686fdd5dd" ResourceName="Textures" />
       <Asset Guid="467bfcedb5602c34abedc1b4b11528e6" ResourceName="UI/UIForms" />
       <Asset Guid="4745d4d0348d5e3488fc85d50c3dfacd" ResourceName="UI/UIForms" />
@@ -203,6 +206,7 @@
       <Asset Guid="759c0e92da3f0fe4a9de5e569629a86c" ResourceName="Textures" />
       <Asset Guid="75a0bb4c61325c74384caef7e5e1d6ac" ResourceName="UI/UIForms" />
       <Asset Guid="75be6b5f9c6fef04f9c8fd7470c979f0" ResourceName="Textures" />
+      <Asset Guid="77cbb7c5404c10242ab59953e0746314" ResourceName="Fonts" />
       <Asset Guid="77d96d67757e2f047b5461bd7b62e214" ResourceName="UI/UIForms" />
       <Asset Guid="78d7ca43460a2514d94079301dd758bc" ResourceName="UI/UIForms" />
       <Asset Guid="78e79283f57cc4b4b8bcb633b4b771b2" ResourceName="Textures" />
@@ -213,6 +217,7 @@
       <Asset Guid="7c9f179a12777ad409ff5c13157a87f0" ResourceName="Textures" />
       <Asset Guid="7ec9410405ef1734c8872bcbddab9de7" ResourceName="Textures" />
       <Asset Guid="7efd2303231099c48a5a76faa8e0b212" ResourceName="Animation" />
+      <Asset Guid="7fd11dc5d29076d469d414dec2818f11" ResourceName="Configs" />
       <Asset Guid="82fc576770fda354d99f3adc63f3bfab" ResourceName="UI/UIForms" />
       <Asset Guid="8311b17a6d71ae64e93b84aa40df151b" ResourceName="UI/UIForms" />
       <Asset Guid="83f06e57b1d569d49b66524a04fc48c6" ResourceName="UI/UIForms" />
@@ -268,6 +273,7 @@
       <Asset Guid="a1ad72f7f838fe543b1ed7c9eec94011" ResourceName="Textures" />
       <Asset Guid="a1e7bba74cd2459438ca9d7f8eaacef7" ResourceName="UI/UIForms" />
       <Asset Guid="a2175ee24f0f4354ba01461e568b4a82" ResourceName="UI/UIForms" />
+      <Asset Guid="a33e23ae848110243820cda82120b105" ResourceName="DataTables" />
       <Asset Guid="a4430869ecda020468fc503b2cb5132b" ResourceName="UI/UIForms" />
       <Asset Guid="a475d62021a73a84289d367b12f6ed17" ResourceName="Textures" />
       <Asset Guid="a4afe897d430e044d8fffae1937be1dc" ResourceName="UI/UIForms" />
@@ -372,6 +378,7 @@
       <Asset Guid="e2c8d32794e0f7346b1d4c0cdc3fe809" ResourceName="Textures" />
       <Asset Guid="e39b4f6d40b825944973675b95b8e6d0" ResourceName="Textures" />
       <Asset Guid="e3c62f35bf123274faeb819d50e3ba2a" ResourceName="UI/UIForms" />
+      <Asset Guid="e3d80304e40757c45b858900f031a6a6" ResourceName="UI/UIForms" />
       <Asset Guid="e405ee2e747c2a749bcabe335ef68a17" ResourceName="Textures" />
       <Asset Guid="e4ecc9c197b1e6b40aa7b59d3cb4cc02" ResourceName="UI/UIForms" />
       <Asset Guid="e546a2a16dc06cb4bbe109378ea11220" ResourceName="UI/UIForms" />
