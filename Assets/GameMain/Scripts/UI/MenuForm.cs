@@ -5,6 +5,7 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 
+using IndieStudio.DrawingAndColoring.Logic;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -14,6 +15,9 @@ namespace StarForce
     {
         [SerializeField]
         private GameObject m_QuitButton = null;
+
+        [SerializeField]
+        private ShapesTable m_ShapesTable = null;
 
         private ProcedureMenu m_ProcedureMenu = null;
 
@@ -50,8 +54,8 @@ namespace StarForce
 #endif
         {
             base.OnOpen(userData);
-
             m_ProcedureMenu = (ProcedureMenu)userData;
+            m_ShapesTable.SetProcedure(m_ProcedureMenu);
             if (m_ProcedureMenu == null)
             {
                 Log.Warning("ProcedureMenu is invalid when open MenuForm.");
