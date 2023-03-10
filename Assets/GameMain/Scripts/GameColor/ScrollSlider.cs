@@ -171,7 +171,7 @@ namespace IndieStudio.DrawingAndColoring.Logic
 
 		void Start ()
 		{
-			Init();
+			
 		}
 
 		public void Init(){

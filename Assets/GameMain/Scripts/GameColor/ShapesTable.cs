@@ -115,6 +115,8 @@ namespace IndieStudio.DrawingAndColoring.Logic
 				if (saveLastSelectedGroup && ShapesManager.instance!=null) {
 					scrollSlider.currentGroupIndex = ShapesManager.instance.lastSelectedShape;
 				}
+
+				GetComponent<ScrollSlider>().Init();
 		}
 
 		void Update ()

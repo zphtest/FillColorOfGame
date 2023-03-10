@@ -54,7 +54,7 @@ namespace StarForce
             m_GotoMenu = false;
             GameMode gameMode = (GameMode)procedureOwner.GetData<VarByte>("GameMode").Value;
             m_CurrentGame = m_Games[gameMode];
-            m_CurrentGame.Initialize();
+            //m_CurrentGame.Initialize();
         }
 
         protected override void OnLeave(ProcedureOwner procedureOwner, bool isShutdown)
@@ -74,7 +74,7 @@ namespace StarForce
 
             if (m_CurrentGame != null && !m_CurrentGame.GameOver)
             {
-                m_CurrentGame.Update(elapseSeconds, realElapseSeconds);
+                //m_CurrentGame.Update(elapseSeconds, realElapseSeconds);
                 return;
             }
 
