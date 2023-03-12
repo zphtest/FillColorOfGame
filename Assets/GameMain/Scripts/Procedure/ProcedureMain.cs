@@ -52,8 +52,8 @@ namespace StarForce
             base.OnEnter(procedureOwner);
 
             m_GotoMenu = false;
-            GameMode gameMode = (GameMode)procedureOwner.GetData<VarByte>("GameMode").Value;
-            m_CurrentGame = m_Games[gameMode];
+            //GameMode gameMode = (GameMode)procedureOwner.GetData<VarByte>("GameMode").Value;
+            //m_CurrentGame = m_Games[gameMode];
             //m_CurrentGame.Initialize();
         }
 
