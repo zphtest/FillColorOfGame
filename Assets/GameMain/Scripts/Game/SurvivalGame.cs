@@ -19,7 +19,7 @@ namespace StarForce
         {
             get
             {
-                return GameMode.Survival;
+                return GameMode.DrawingState;
             }
         }
 

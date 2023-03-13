@@ -13,8 +13,16 @@ namespace StarForce
     public enum GameMode : byte
     {
         /// <summary>
-        /// 生存模式。
+        /// 默认状态
         /// </summary>
-        Survival,
+        None,
+        /// <summary>
+        /// 游戏菜单
+        /// </summary>
+        GameMenu,
+        /// <summary>
+        /// 开始画画。
+        /// </summary>
+        DrawingState,
     }
 }
