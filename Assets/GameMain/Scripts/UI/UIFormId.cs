@@ -33,5 +33,12 @@ namespace StarForce
         /// 关于。
         /// </summary>
         AboutForm = 102,
+
+        /// <summary>
+        /// 画画面板
+        /// </summary>
+        DrawForm = 103,
+
+
     }
 }

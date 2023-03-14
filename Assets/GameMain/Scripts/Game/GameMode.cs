@@ -17,6 +17,10 @@ namespace StarForce
         /// </summary>
         None,
         /// <summary>
+        /// 游戏Logo
+        /// </summary>
+        GameLogo,
+        /// <summary>
         /// 游戏菜单
         /// </summary>
         GameMenu,

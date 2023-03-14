@@ -20,6 +20,8 @@ namespace StarForce
         private bool m_IsChangeSceneComplete = false;
         private int m_BackgroundMusicId = 0;
 
+        private GameMode m_GameMode;
+
         public override bool UseNativeDialog
         {
             get
@@ -56,9 +58,8 @@ namespace StarForce
 
             // 还原游戏速度
             GameEntry.Base.ResetNormalGameSpeed();
-
             int sceneId = procedureOwner.GetData<VarInt32>("NextSceneId");
-            m_ChangeToMenu = sceneId == MenuSceneId;
+            m_GameMode = (GameMode)procedureOwner.GetData<VarByte>("GameMode").Value;
             IDataTable<DRScene> dtScene = GameEntry.DataTable.GetDataTable<DRScene>();
             DRScene drScene = dtScene.GetDataRow(sceneId);
             if (drScene == null)
@@ -90,13 +91,17 @@ namespace StarForce
                 return;
             }
 
-            if (m_ChangeToMenu)
+            if (m_GameMode == GameMode.GameMenu)
             {
                 ChangeState<ProcedureMenu>(procedureOwner);
             }
-            else
+            if (m_GameMode == GameMode.GameLogo)
             {
-                ChangeState<ProcedureMain>(procedureOwner);
+                ChangeState<ProcedureLogo>(procedureOwner);
+            }
+            if (m_GameMode == GameMode.DrawingState)
+            {
+                ChangeState<ProcedureDraw>(procedureOwner);
             }
         }
 

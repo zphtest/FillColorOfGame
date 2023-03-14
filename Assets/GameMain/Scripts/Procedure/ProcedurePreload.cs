@@ -83,6 +83,7 @@ namespace StarForce
             }
 
             procedureOwner.SetData<VarInt32>("NextSceneId", GameEntry.Config.GetInt("Scene.Logo"));
+            procedureOwner.SetData<VarByte>("GameMode", (byte)GameMode.GameLogo);
             ChangeState<ProcedureChangeScene>(procedureOwner);
         }
 
