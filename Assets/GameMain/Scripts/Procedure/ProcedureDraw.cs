@@ -56,7 +56,7 @@ namespace StarForce
         {
             base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
 
-            if (m_DrawForm.GoToMenu)
+            if (m_DrawForm != null && m_DrawForm.GoToMenu)
             {
                 procedureOwner.SetData<VarInt32>("NextSceneId", GameEntry.Config.GetInt("Scene.Menu"));
                 procedureOwner.SetData<VarByte>("GameMode", (byte)GameMode.GameMenu);

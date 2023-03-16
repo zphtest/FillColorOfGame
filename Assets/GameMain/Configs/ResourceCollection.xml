@@ -230,6 +230,7 @@
       <Asset Guid="8695544ab1ba9aa43ab35bc31813466e" ResourceName="Textures" />
       <Asset Guid="87050cf6c8405c64e9350292c1a531f9" ResourceName="UI/UIForms" />
       <Asset Guid="87dab2fe5a00734439a95ab2c1d960ca" ResourceName="UI/UIForms" />
+      <Asset Guid="87fdef9384ee3d245b9e9190ca713691" ResourceName="UI/UIForms" />
       <Asset Guid="886af8b7e746dc949b66ac0af1d9593d" ResourceName="Textures" />
       <Asset Guid="88b416e43045b1e4c99b01a145cc94b5" ResourceName="UI/UIForms" />
       <Asset Guid="891a8ac30b675384fb7b8110795727ba" ResourceName="UI/UIForms" />
@@ -352,6 +353,7 @@
       <Asset Guid="d182ee82a0e63b6489c3ba6906296a53" ResourceName="Textures" />
       <Asset Guid="d52dc93dee21b954c8d276d64d7ac6f6" ResourceName="Textures" />
       <Asset Guid="d53bd7b746008a241af9001c4f69fe1a" ResourceName="Textures" />
+      <Asset Guid="d560530bec8191e439c686c10d719ad2" ResourceName="Scenes" />
       <Asset Guid="d578f2802b0dd0d4fb0957aa80653429" ResourceName="Textures" />
       <Asset Guid="d5bcfa00e8124934abc52ba0cddd61f7" ResourceName="UI/UIForms" />
       <Asset Guid="d6de19d2944440547b07fcc1776a4e45" ResourceName="UI/UIForms" />
