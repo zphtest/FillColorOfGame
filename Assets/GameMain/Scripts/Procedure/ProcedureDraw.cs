@@ -48,7 +48,6 @@ namespace StarForce
             if (m_DrawForm != null)
             {
                 m_DrawForm.Close(isShutdown);
-                m_DrawForm = null;
             }
         }
 
@@ -61,6 +60,7 @@ namespace StarForce
                 procedureOwner.SetData<VarInt32>("NextSceneId", GameEntry.Config.GetInt("Scene.Menu"));
                 procedureOwner.SetData<VarByte>("GameMode", (byte)GameMode.GameMenu);
                 ChangeState<ProcedureChangeScene>(procedureOwner);
+                m_DrawForm.GoToMenu = false;
             }
         }
 
